@@ -1,0 +1,120 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.cont{
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 2px;
+    height: 10vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    /* remove padding once u add colors */
+    position: static;
+
+}
+nav ul li{
+    list-style-type: none;
+    position: static;
+}
+
+nav ul li{
+    border: 1px solid black; 
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: static;
+    font-weight: bolder;
+}
+
+nav ul li:hover{
+    background-color: rgb(221, 229, 230);
+    
+}
+
+.home:hover{
+    color: blue;
+}
+
+nav ul{
+    display: flex;
+    gap: 10vw;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:blue;
+}
+/* END */
+.sub{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+
+}
+.subhead{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+    margin: 5vh;
+    
+}
+.subhead div h2{
+    text-decoration:underline;
+}
+
+.subjects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subjects ul li{
+    border: 1px solid;
+    margin: 5px;
+    padding: 15px;
+    font-weight: bold;
+
+}
+.subjects ul li:hover{
+    background-color: rgb(207, 194, 219);
+}
+
+.subjects ul li{
+    list-style-position:inside;
+    /* list-style-image: url(/assets/iStock-1087508538.webp);
+    background-repeat: no-repeat;
+    list-style-image: ;
+} */
+ }
+
+.mega{
+    border: 1px solid;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 1vh;
+    height: 90vh;
+    width: 70vw;
+}
+
+.megamega{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

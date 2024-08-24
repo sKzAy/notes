@@ -1,0 +1,92 @@
+*{
+    padding: 0vw;
+    margin: 0vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.Fh {
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    text-shadow:none;
+    justify-content: center;
+    padding: 2vh;
+    margin: 1vh;
+}
+
+.container{
+    border: 1px solid;
+    margin: 2vh;
+    padding: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    width: 80vw;
+    gap: 25vw;
+    position: relative;
+    left: 4.25vw;
+}
+
+.olvl{
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 25vh;
+    width: 20vw;
+    
+}
+
+.alvl{
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 25vh;
+    width: 20vw;
+}
+
+.a,.o{
+    text-decoration: none;
+    color: black;
+}
+.o:hover,.a:hover{
+    color: blue;
+    
+}
+
+.path{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pathdiv{
+    display: flex;
+    justify-content: center;
+}
+
+.abt{
+    color: black;
+    
+}
+.abtcont{
+    border: 1px solid black;
+    padding: 5vh;
+    width: 70vw;
+
+}
+.contcont{
+    display: flex;
+    justify-content: center;
+}
