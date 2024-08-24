@@ -148,4 +148,62 @@ a:hover{
 
 }
 
+.zainpaper1 div h3{
+    text-decoration: underline;
+
+}
+.zainpaper1{
+    border: 1px solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center ;
+    justify-items: center;
+    margin: 5vh;
+    padding: 5vh;
+    width: 20vw;
+    
+}
+.workcontainer{
+    display: flex;
+    
+    align-items: center;
+}
+.zainpaper1 div li a:hover{
+    text-decoration: underline;
+}
+.zainpaper3 div li a:hover{
+    text-decoration: underline;
+}
+.zainpaper3{
+    border: 1px solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center ;
+    justify-items: center;
+    margin: 5vh;
+    padding: 5vh;
+    width: 20vw;
+    }
+.zainematics div li a:hover{
+    text-decoration: underline;
+}
+.zainmechanics{
+    border: 1px solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center ;
+    justify-items: center;
+    margin: 5vh;
+    padding: 5vh;
+    width: 20vw;
+    }
+    
+
+
 

@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.cont{
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 2px;
+    height: 10vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    /* remove padding once u add colors */
+    position: static;
+
+}
+nav ul li{
+    list-style-type: none;
+    position: static;
+}
+
+nav ul li{
+    border: 1px solid black; 
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: static;
+    font-weight: bolder;
+}
+
+nav ul li:hover{
+    background-color: rgb(221, 229, 230);
+    
+}
+
+.home:hover{
+    color: blue;
+}
+
+nav ul{
+    display: flex;
+    gap: 10vw;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:blue;
+}
+
+/* END */
+
+.mathcont , .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    padding: 5vh;
+    margin: 5vh;
+    text-decoration: underline;
+}
+.linkscontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    width: 25vw;
+    font-weight: bolder;
+    border-radius: 15px;
+
+}
+.links ul li{
+    margin: 2vh;
+    text-decoration: none;
+}
+
+.zainematics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    width: 20vw;
+    padding: 5vh;
+    border-radius: 15px;
+}
+.zaincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    padding: 10;
+}
+.aboutzain div:nth-child(1){
+    margin: 50px;
+    font-weight: bolder;
+}
+
+.aboutzain{
+    border: 1px solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center ;
+    justify-items: center;
+    margin: 5vh;
+    padding: 2vh;
+    
+    
+}
+.aboutzain h3{
+    text-decoration: underline;
+}
+.aboutzain p{
+    padding: 3vh;
+}
+.aboutzain iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zainvid{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ 
+}
+
+.resources{
+    border: 1px solid;
+    display: block;
+    width: 30vw;
+    height: 30vh;
+    padding: 3vh;
+    margin: 2vh;
+    text-decoration: none;
+
+}
+
+.zainpaper1 div h3{
+    text-decoration: underline;
+
+}
+.zainpaper1{
+    border: 1px solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center ;
+    justify-items: center;
+    margin: 5vh;
+    padding: 5vh;
+    width: 20vw;
+    
+}
+.workcontainer{
+    display: flex;
+    
+    align-items: center;
+}
+.zainpaper1 div li a:hover{
+    text-decoration: underline;
+}
+.zainpaper3 div li a:hover{
+    text-decoration: underline;
+}
+.zainpaper3{
+    border: 1px solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center ;
+    justify-items: center;
+    margin: 5vh;
+    padding: 5vh;
+    width: 20vw;
+    }
+.zainematics div li a:hover{
+    text-decoration: underline;
+}
+.zainmechanics{
+    border: 1px solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center ;
+    justify-items: center;
+    margin: 5vh;
+    padding: 5vh;
+    width: 20vw;
+    }
