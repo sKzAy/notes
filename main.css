@@ -47,7 +47,7 @@ body{
     justify-content: center;
     height: 40vh;
     width: 80vw;
-    gap: 25vw;
+    gap: 15vw;
     position: relative;
     left: 4.25vw;
     background: linear-gradient(var(--grad5), var(--grad4) );
@@ -87,7 +87,7 @@ body{
     color: wheat;
 }
 .o:hover,.a:hover{
-    color:rgb(140, 167, 255) ;
+    color: rgba(255, 80, 109, 0.836) ;
 
 }
 
@@ -99,7 +99,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(var(--grad3),var(--grad4));
+    background: linear-gradient(var(--grad4),var(--grad4));
     color: wheat;
     
 }
