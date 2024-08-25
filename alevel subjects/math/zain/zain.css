@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Geologica,Poppins,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .cont{
@@ -192,6 +192,19 @@ a:hover{
     text-decoration: underline;
 }
 .zainmechanics{
+    border: 1px solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center ;
+    justify-items: center;
+    margin: 5vh;
+    padding: 5vh;
+    width: 20vw;
+    }
+    
+.zainstats{
     border: 1px solid;
     border-radius: 15px;
     display: flex;
