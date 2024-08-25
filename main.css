@@ -4,15 +4,22 @@
     font-family: Geologica,Poppins,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 body{
-    background-color: var(--bodyback);
+    background: linear-gradient(var(--grad5),var(--grad6));
 }
 :root {
     --smallback: #697565;
-    --bodyback:#1E201E;
+    --bodyback:white;
     --bottom:#ECDFCC;
     --contcol: #3C3D37;
-    --top:#3C3D37;
+    --top:#ffc04a;
     --pathcol: #3C3D37;
+    --grad1: #F4CE14;
+    --grad2: #FF8A8A;
+    --grad3: #FFDE4D;
+    --grad4:#FFB22C;
+    --grad5: #FF8A08;
+    --grad6: #FFB200;
+
   }
 
 .Fh {
@@ -24,7 +31,7 @@ body{
     align-items: center;
     padding: 2vh;
     margin: 0;
-    background-color: var(--top);
+    background: linear-gradient(rgb(248, 117, 117),orange);
     color: wheat;
     height: 10vh;
     display: flex;
@@ -43,7 +50,8 @@ body{
     gap: 25vw;
     position: relative;
     left: 4.25vw;
-    background-color: var(--contcol);
+    background: linear-gradient(var(--grad5), var(--grad4) );
+    background: none;
     
 }
 
@@ -56,8 +64,8 @@ body{
     width: 30vw;
     height: 25vh;
     width: 20vw;
-    background-color: var(--smallback);
-    color: wheat;
+    background:linear-gradient(var(--grad1),var(--grad2));
+    
     
 }
 
@@ -70,8 +78,8 @@ body{
     width: 30vw;
     height: 25vh;
     width: 20vw;
-    background-color: var(--smallback);
-    color: wheat;
+    background:linear-gradient(var(--grad1),var(--grad2));
+    
 }
 
 .a,.o{
@@ -91,7 +99,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:var(--pathcol); ;
+    background: linear-gradient(var(--grad3),var(--grad4));
     color: wheat;
     
 }
@@ -102,14 +110,14 @@ body{
 }
 
 .abt{
-    color: black;
+    color:wheat;
     
 }
 .abtcont{
     border:none;
     padding: 5vh;
     width: 70vw;
-    background-color:var(--bottom) ;
+    background: linear-gradient(rgb(248, 117, 117),orange);
     border-radius: 10px;
 
 }
