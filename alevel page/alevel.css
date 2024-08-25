@@ -7,27 +7,20 @@
     
 }
 body{
-    background: linear-gradient(var(--gradbutton1),var(--grad6));
+    background: linear-gradient(var(--grad2),var(--grad9),var(--grad3));
 }
+
 :root {
-    --smallback: #697565;
-    --bodyback:white;
-    --bottom:#ECDFCC;
-    --contcol: #3C3D37;
-    --top:#ffc04a;
-    --pathcol: #3C3D37;
-    --grad1: #F4CE14;
-    --grad2: #FF8A8A;
-    --grad3: #FFDE4D;
-    --grad4:#FFB22C;
-    --grad5: #FF8A08;
-    --grad6: #FFB200;
-    --gradbutton1: #FF8343;
-    --gradbutton2: #E88D67;
-    --gradsub1: #E85C0D;
-    --gradsub2: #C7253E;
-    --gradhover1: #7695FF;
-    --gradhover2: #9DBDFF;
+    --grad1: #7695FF;
+    --grad2: #125B9A;
+    --grad3: #0B8494;
+    --grad4:#617acc;
+    --grad5: #80C4E9;
+    --grad6: #6DC5D1;
+    --grad7:#00215E;
+    --grad8:#9DBDFF;
+    --grad9:#4E31AA;
+    --grad10: #3ABEF9;
 
   }
 
@@ -41,7 +34,7 @@ body{
     flex-direction:row;
     /* remove padding once u add colors */
     position: static;
-    background: linear-gradient(rgb(248, 117, 117),orange);
+    background: linear-gradient(var(--grad10),var(--grad7));
     
 }
 .cont nav ul li a{
@@ -55,7 +48,7 @@ body{
 .cont nav ul li{
     border-radius: 15px;
     border: none;
-    background: linear-gradient(var(--gradbutton1),var(--gradbutton2));
+    background: linear-gradient(var(--grad3),var(--grad6));
  }
 
 
@@ -119,7 +112,7 @@ a{
 .subjects ul li{
     border: none;
     border-radius: 15px;
-    background: linear-gradient(var(--gradsub1),var(--gradsub2));
+    background: linear-gradient(var(--grad4),var(--grad2),var(--grad2));
     margin: 5px;
     padding: 15px;
     font-weight: bold;
