@@ -158,6 +158,10 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
+.about ul{
+    position: relative;
+    left: 3vw;
+}
 
 .vid{
  display: flex;

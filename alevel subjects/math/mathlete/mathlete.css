@@ -158,7 +158,10 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
-
+.about ul{
+    position: relative;
+    left: 3vw;
+}
 .vid{
  display: flex;
  justify-content: center;
@@ -199,7 +202,7 @@ a:hover{
 }
 .workcontainer{
     display: flex;
-    
+    justify-content: center;
     align-items: center;
 }
 .paper1 div li a:hover{

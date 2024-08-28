@@ -157,6 +157,10 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
+.aboutzain ul{
+    position: relative;
+    left: 3vw;
+}
 
 .zainvid{
  display: flex;
