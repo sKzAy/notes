@@ -3,22 +3,22 @@
     margin: 0;
     font-family: Geologica,Poppins,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
-body{
-    background: linear-gradient(var(--grad2),var(--grad3),var(--grad3),var(--grad7))
-}
-:root {
-    --grad1: #7695FF;
-    --grad2: #125B9A;
-    --grad3: #0B8494;
-    --grad4:#617acc;
-    --grad5: #80C4E9;
-    --grad6: #6DC5D1;
-    --grad7:#00215E;
-    --grad8:#9DBDFF;
-    --grad9:#4E31AA;
-    --grad10: #3ABEF9;
 
-  }
+body{
+    background-color: var(--col1);}
+    
+    :root {
+        --col1:#edf2fa;
+        --col2:#d7e3fc;
+        --col3:#ccdbfd;
+        --col4:#729dff;
+        --col42:#8eb0ff;
+        --col5:#abc4ff;
+        --col6:rgb(95, 95, 250);
+        --col62:rgb(146, 146, 252);
+        --col7:#7b93ca;
+        
+      }
 
 
 .cont{
@@ -29,43 +29,49 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction:row;
-    /* remove padding once u add colors */
-    position: static;
-    background: linear-gradient(var(--grad4),var(--grad1))
+    background-color:var(--col6);
+    
     
 
 }
-nav ul li{
+
+
+.cont nav ul li{
     list-style-type: none;
-    position: static;
+    
+}
+.cont nav ul li a{
+    align-items: center;
 }
 
-nav ul li{
+.cont nav ul li{
     border:none; 
     border-radius: 15px;
     width: 70px;
     display: flex;
     justify-content: center;
     padding: 10px;
-    position: static;
     font-weight: bolder;
-    background: linear-gradient(var(--grad1),var(--grad10));;
-    color: wheat;
+    background-color:var(--col5);
+    color: white;
 }
-
+.aboutme{
+    text-align: center;
+}
 
 nav ul{
     display: flex;
     gap: 10vw;
     justify-content: center;
     align-items: center;
+    
 }
 a{
     text-decoration: none;
-    color:wheat;
+    color:white;
 }
 a:hover{
-    color:blue;
+    color:rgb(255, 0, 106) ;
 }
 
 /* END */
@@ -78,8 +84,11 @@ a:hover{
     border-radius: 15px;
     padding: 5vh;
     margin: 5vh;
-    color: wheat;
-    background: linear-gradient(var(--grad3),var(--grad4))
+    color: white;
+    
+}
+.mathcont{
+    background-color: var(--col42) ;
 }
 
 .linkscontainer{
@@ -91,6 +100,7 @@ a:hover{
     width: 25vw;
     font-weight: bolder;
     border-radius: 15px;
+    background-color: var(--col6) ;
 
 }
 .links ul li{
@@ -104,11 +114,12 @@ a:hover{
     align-items: center;
     border: none;
     border-radius: 15px;
-    background: linear-gradient(var(--grad9),var(--grad10));
-    width: 20vw;
+    background-color: var(--col42) ;  
+      width: 20vw;
     padding: 5vh;
     border-radius: 15px;
-    color: wheat;
+    color: white;
+    text-align: center;
 }
 .zaincontainer{
     display: flex;
@@ -133,9 +144,8 @@ a:hover{
     justify-items: center;
     margin: 5vh;
     padding: 2vh;
-    color: wheat;
-    background: linear-gradient(var(--grad9),var(--grad10));
-}
+    color: white;
+    background-color: var(--col4) ;}
 .aboutzain h3{
     text-decoration: underline;
 }
@@ -182,8 +192,8 @@ a:hover{
     margin: 5vh;
     padding: 5vh;
     width: 20vw;
-    color: wheat;
-    background: linear-gradient(var(--grad2),var(--grad10));
+    color: white;
+    background: linear-gradient(var(--col4),var(--col6));
     
 }
 .workcontainer{
@@ -208,8 +218,8 @@ a:hover{
     margin: 5vh;
     padding: 5vh;
     width: 20vw;
-    background: linear-gradient(var(--grad2),var(--grad10));
-    color:wheat
+    background: linear-gradient(var(--col4),var(--col6));
+        color:white
     }
 .zainematics div li a:hover{
     text-decoration: underline;
@@ -225,9 +235,12 @@ a:hover{
     margin: 5vh;
     padding: 5vh;
     width: 20vw;
-    background: linear-gradient(var(--grad2),var(--grad10));
-    color:wheat
+    background: linear-gradient(var(--col4),var(--col6));
+        color:white
     }
+    .zainmechanics div li a:hover{
+        text-decoration: underline;}
+    
     
 .zainstats{
     border: none;
@@ -240,10 +253,11 @@ a:hover{
     margin: 5vh;
     padding: 5vh;
     width: 20vw;
-    background: linear-gradient(var(--grad2),var(--grad10));
-    color:wheat
+    background: linear-gradient(var(--col4),var(--col6));
+        color:white
     }
-    
+    .zainstats div li a:hover{
+        text-decoration: underline;}
 
 
 

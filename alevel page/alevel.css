@@ -7,21 +7,19 @@
     
 }
 body{
-    background: linear-gradient(var(--grad2),var(--grad9),var(--grad3));
-}
+background-color: var(--col1);}
 
 :root {
-    --grad1: #7695FF;
-    --grad2: #125B9A;
-    --grad3: #0B8494;
-    --grad4:#617acc;
-    --grad5: #80C4E9;
-    --grad6: #6DC5D1;
-    --grad7:#00215E;
-    --grad8:#9DBDFF;
-    --grad9:#4E31AA;
-    --grad10: #3ABEF9;
-
+    --col1:#edf2fa;
+    --col2:#d7e3fc;
+    --col3:#ccdbfd;
+    --col4:#729dff;
+    --col42:#81a6fd;
+    --col5:#abc4ff;
+    --col6:rgb(95, 95, 250);
+    --col62:rgb(146, 146, 252);
+    --col7:#7b93ca;
+    
   }
 
 .cont{
@@ -34,21 +32,22 @@ body{
     flex-direction:row;
     /* remove padding once u add colors */
     position: static;
-    background: linear-gradient(var(--grad10),var(--grad7));
+    background-color: var(--col6);
     
 }
 .cont nav ul li a{
    text-align: center;
-   color: wheat;
+   color: white;
 
 }
 .cont nav ul li a:hover{
-    color:rgb(255, 140, 159);
+    color:rgb(255, 0, 106);
 }
 .cont nav ul li{
     border-radius: 15px;
     border: none;
-    background: linear-gradient(var(--grad3),var(--grad6));
+    background-color:var(--col5) ;
+
  }
 
 
@@ -97,10 +96,11 @@ a{
     padding: 5vh;
     margin: 5vh;
     
+    
 }
 .subhead div h2{
     text-decoration:underline;
-    color: wheat;
+    color: white;
 }
 
 .subjects{
@@ -112,7 +112,7 @@ a{
 .subjects ul li{
     border: none;
     border-radius: 15px;
-    background: linear-gradient(var(--grad4),var(--grad2),var(--grad2));
+    background-color: var(--col6) ;
     margin: 5px;
     padding: 15px;
     font-weight: bold;
@@ -123,11 +123,11 @@ a{
     color:wheat;
 }
 .subjects ul li a:hover{
-    color:rgba(255, 80, 109, 0.836);
+    color:rgb(255, 0, 106);
 }
-.subjects ul li:hover{
-    background-color: rgb(207, 194, 219);
-}
+
+
+
 
 .subjects ul li{
     list-style-position:inside;
@@ -138,13 +138,14 @@ a{
  }
 
 .mega{
-    border: 5px solid wheat;
+    border:none;
     border-radius: 15px;
     margin: 10px;
     padding: 1vh;
     height: 90vh;
     width: 70vw;
-    background: linear-gradient(var(--gradbutton2),var(--grad4));
+    background-color:var(--col42) ;
+    ;
 }
 
 .megamega{

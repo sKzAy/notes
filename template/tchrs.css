@@ -77,7 +77,7 @@ a:hover{
 
 /* END */
 
-.mathcont , .links{
+.namecont , .links{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,7 +88,7 @@ a:hover{
     color: white;
     
 }
-.mathcont{
+.namecont{
     background-color: var(--col42) ;
 }
 
@@ -109,7 +109,7 @@ a:hover{
     text-decoration: none;
 }
 
-.ahmed{
+.teacher1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -222,9 +222,7 @@ a:hover{
     background: linear-gradient(var(--col4),var(--col6));
         color:white
     }
-.zainematics div li a:hover{
-    text-decoration: underline;
-}
+
 .mechanics{
     border: none;
     border-radius: 15px;
