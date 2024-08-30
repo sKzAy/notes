@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Geologica,Poppins,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+body{
+    background-color: var(--col1);}
+    
+    :root {
+        --col1:#edf2fa;
+        --col2:#d7e3fc;
+        --col3:#ccdbfd;
+        --col4:#729dff;
+        --col42:#8eb0ff;
+        --col5:#abc4ff;
+        --col6:rgb(95, 95, 250);
+        --col62:rgb(146, 146, 252);
+        --col7:#7b93ca;
+        
+      }
+
+
+.cont{
+    border: none;
+    height: 10vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    background-color:var(--col6);
+    
+    
+
+}
+
+
+.cont nav ul li{
+    list-style-type: none;
+    
+}
+.cont nav ul li a{
+    align-items: center;
+}
+
+.cont nav ul li{
+    border:none; 
+    border-radius: 15px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-weight: bolder;
+    background-color:var(--col5);
+    color: white;
+}
+.aboutme{
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 10vw;
+    justify-content: center;
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:rgb(255, 0, 106) ;
+}
+
+
+/* END */
+
+.mathcont , .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 15px;
+    padding: 5vh;
+    margin: 5vh;
+    color: white;
+    
+}
+.mathcont{
+    background-color: var(--col42) ;
+}
+
+.linkscontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    width: 25vw;
+    font-weight: bolder;
+    border-radius: 15px;
+    background-color: var(--col6) ;
+
+}
+.links ul li{
+    margin: 2vh;
+    text-decoration: none;
+}
+
+.teacher1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--col42) ;  
+      width: 20vw;
+    padding: 5vh;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    padding: 10;
+    
+}
+.about div:nth-child(1){
+    margin: 50px;
+    font-weight: bolder;
+}
+
+.about{
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center ;
+    justify-items: center;
+    margin: 5vh;
+    padding: 2vh;
+    color: white;
+    background-color: var(--col4) ;}
+.about h3{
+    text-decoration: underline;
+}
+.about p{
+    padding: 3vh;
+}
+.about iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about ul{
+    position: relative;
+    left: 3vw;
+}
+.vid{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ 
+}
+
+.resources{
+    border: 1px solid;
+    display: block;
+    width: 30vw;
+    height: 30vh;
+    padding: 3vh;
+    margin: 2vh;
+    text-decoration: none;
+
+}
+
+.paper1 div h3{
+    text-decoration: underline;
+
+}
+.paper1{
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center ;
+    justify-items: center;
+    margin: 5vh;
+    padding: 5vh;
+    width: 20vw;
+    color: white;
+    background: linear-gradient(var(--col4),var(--col6));
+    
+}
+.workcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paper1 div li a:hover{
+    text-decoration: underline;
+}
+.p2 div li a:hover{
+    text-decoration: underline;
+}
+.p2{
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center ;
+    justify-items: center;
+    margin: 5vh;
+    padding: 5vh;
+    width: 20vw;
+    background: linear-gradient(var(--col4),var(--col6));
+        color:white
+    }
+
+
+.p3{
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center ;
+    justify-items: center;
+    margin: 5vh;
+    padding: 5vh;
+    width: 20vw;
+    background: linear-gradient(var(--col4),var(--col6));
+        color:white
+    }
+    
+.p4{
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center ;
+    justify-items: center;
+    margin: 5vh;
+    padding: 5vh;
+    width: 20vw;
+    background: linear-gradient(var(--col4),var(--col6));
+        color:white
+    }
+    
+
+
+
