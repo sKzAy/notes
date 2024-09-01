@@ -160,7 +160,7 @@ a:hover{
 }
 .about ul{
     position: relative;
-    left: 3vw;
+    left: 4vw;
 }
 .vid{
  display: flex;
@@ -197,7 +197,7 @@ a:hover{
     padding: 5vh;
     width: 20vw;
     color: white;
-    background: linear-gradient(var(--col4),var(--col6));
+    background-color: var(--col6);
     
 }
 .workcontainer{
@@ -222,7 +222,7 @@ a:hover{
     margin: 5vh;
     padding: 5vh;
     width: 20vw;
-    background: linear-gradient(var(--col4),var(--col6));
+    background-color: var(--col6);
         color:white
     }
 
@@ -238,7 +238,7 @@ a:hover{
     margin: 5vh;
     padding: 5vh;
     width: 20vw;
-    background: linear-gradient(var(--col4),var(--col6));
+    background-color: var(--col6);
         color:white
     }
     
@@ -253,7 +253,7 @@ a:hover{
     margin: 5vh;
     padding: 5vh;
     width: 20vw;
-    background: linear-gradient(var(--col4),var(--col6));
+    background-color: var(--col6);
         color:white
     }
     
