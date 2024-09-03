@@ -257,6 +257,29 @@ a:hover{
         color:white
     }
     
+    .workcontainer li{  
+        list-style-type: none;
+    }
 
+
+    .note{
+        border: none;
+        border-radius: 5vh;
+        padding: 3vh;
+        font-size: smaller;
+        height: 20vh;
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:var(--col5);
+        color: white;
+    }
+    
+    .abunote{
+        display: flex;
+        justify-content: center;
+        
+    }
 
 
