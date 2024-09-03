@@ -302,6 +302,18 @@ a:hover{
                 display: flex;
                 flex-direction: column;
             }
+            .zainpaper1{
+                width: 50vw;
+            }
+            .zainpaper3{
+                width: 50vw;
+            }
+            .zainmechanics{
+                width: 50vw;
+            }
+            .zainstats{
+                width: 50vw;
+            }
 
 
             
