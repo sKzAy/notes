@@ -290,10 +290,20 @@ a:hover{
         }
 
         @media screen and (max-width:600px){
-            .aboutzain{
-                display: inline-block;
-            }
             
+            .cont{
+                width: 800px;
+            }
+            .aboutzain{
+                display:inline-block;
+                width: 600px;
+            }
+            .workcontainer{
+                display: flex;
+                flex-direction: column;
+            }
+
+
             
         
         
