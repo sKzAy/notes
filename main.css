@@ -128,3 +128,13 @@ background-color: var(--col1)}
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width:600px){
+    .h2a{
+        padding: 1vh 1vw;
+    }
+
+
+
+
+}
