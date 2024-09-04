@@ -17,6 +17,11 @@ body{
         --col6:rgb(95, 95, 250);
         --col62:rgb(146, 146, 252);
         --col7:#7b93ca;
+        --dcolB: black;
+        --dcolH:rgb(29, 29, 29);
+        --dcolButton:rgba(34, 33, 33, 0.719);
+        --dcolButton2:rgba(51, 49, 49, 0.719);
+        --dcol2:rgb(65, 65, 65);
         
       }
 
@@ -358,5 +363,40 @@ a{
         }
 
     } 
+
+    @media (prefers-color-scheme: dark){
+        *{
+            color: white;
+        }
+        body{
+            background-color: black;
+        }
+        .cont{
+            background-color: var(--dcolH);
+        }
+        .cont nav ul li {
+            background-color: var(--dcolButton2);
+        }
+        .namecont{
+            background-color: var(--dcolButton);
+        }
+        .links{
+            background-color: var(--dcol2);
+        }
+        .teacher1{
+            background-color: var(--dcolButton);
+        }
+        .about{
+            background-color:var(--dcol2);
+        }
+        .note{
+            background-color: var(--dcolButton2);
+        }
+        .As,.A2{
+            background-color:var(--dcol2) ;
+        }
+    
+    
+    }
 
 

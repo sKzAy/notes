@@ -13,6 +13,9 @@ background-color: var(--col1)}
     --col5:#abc4ff;
     --col6:rgb(95, 95, 250);
     --col7:#7b93ca;
+    --dcolB: black;
+    --dcolH:rgb(29, 29, 29);
+    --dcolButton:rgba(34, 33, 33, 0.719);
 
 
   }
@@ -138,6 +141,26 @@ background-color: var(--col1)}
         width: 50vw;
     }
 
+}
 
 
+@media (prefers-color-scheme: dark){
+    *{
+        color: white;
+    }
+    body{
+        background-color: black;
+    }
+    .Fh{
+        background-color: rgb(29, 29, 29);
+    }
+    .container{
+        background-color:rgba(34, 33, 33, 0.719);
+    }
+    .alvl,.olvl{
+        background-color: black;
+    }
+    .abtcont{
+        background-color: rgb(29, 29, 29);
+    }
 }

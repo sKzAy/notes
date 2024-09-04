@@ -19,6 +19,10 @@ background-color: var(--col1);}
     --col6:rgb(95, 95, 250);
     --col62:rgb(146, 146, 252);
     --col7:#7b93ca;
+    --dcolB: black;
+    --dcolH:rgb(29, 29, 29);
+    --dcolButton:rgba(34, 33, 33, 0.719);
+    --dcolButton2:rgba(51, 49, 49, 0.719);
     
   }
 
@@ -168,4 +172,28 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+@media (prefers-color-scheme: dark){
+    *{
+        color: white;
+    }
+    body{
+        background-color: black;
+    }
+
+    .cont{
+        background-color: var(--dcolH);
+    }
+    .cont nav ul li {
+        background-color: var(--dcolButton2);
+    }
+    .mega{
+        background-color: var(--dcolButton);
+    }
+    .subjects ul li {
+        background-color: black;
+    }
+
 }
