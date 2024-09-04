@@ -288,6 +288,11 @@ a:hover{
             justify-content: center;
             
         }
+        iframe{
+            width: 600px;
+            height:340px;
+            display: block;
+        }
 
         @media screen and (max-width:600px){
 
@@ -306,18 +311,10 @@ a:hover{
                 display: flex;
                 flex-direction: column;
             }
-            .contvid{
-            object-fit: scale-down;
-              max-width: 100%;
-              max-height: 100%;
+            iframe{
+                width: 80vw;
             }
-
-
-
-            
-        
-        
-        
+         
         
         }       
 
