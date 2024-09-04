@@ -72,6 +72,7 @@ a{
 }
 .cont nav ul li a:hover{
     color:rgb(69, 227, 255);
+    text-decoration: underline;
 }
 .cont nav ul li:hover{
     background-color: rgb(50, 0, 70)
@@ -311,12 +312,25 @@ iframe{
         width: 50vw;
     }
     .aboutzain{
-        width: 80vw;
+        width: 90vw;
         display: inline-block;
         /* font-size: x-small; */
         box-sizing: border-box;
         padding: 0px ;
 
+    }
+    .zainematics{
+        width: 40vw;
+        padding: 2vh;
+    }
+    .links{
+        width: 40vw;
+        padding: 2vh;
+    }
+    iframe{
+        width: fit-content;
+        height: fit-content;
+        padding: 4vw;
     }
     .aboutzain p{
         padding-top: 1vh;
@@ -335,9 +349,7 @@ iframe{
         justify-content: center;
         
     }
-    iframe{
-        width: 65vw;
-    }
+
     .note{
         width: 60vw;
         height: 35vh;

@@ -66,6 +66,7 @@ a{
 }
 .cont nav ul li a:hover{
     color:rgb(69, 227, 255);
+    text-decoration: underline;
 }
 .cont nav ul li:hover{
     background-color: rgb(50, 0, 70)
