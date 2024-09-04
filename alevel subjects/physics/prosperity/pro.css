@@ -17,6 +17,7 @@ body{
         --col6:rgb(95, 95, 250);
         --col62:rgb(146, 146, 252);
         --col7:#7b93ca;
+        
       }
 
 
@@ -29,6 +30,9 @@ body{
     align-items: center;
     flex-direction:row;
     background-color:var(--col6);
+    
+    
+
 }
 
 
@@ -220,7 +224,7 @@ a:hover{
     padding: 5vh;
     width: 20vw;
     background-color: var(--col6);
-    color:white;
+        color:white
     }
 
 .A2{
@@ -235,7 +239,7 @@ a:hover{
     padding: 5vh;
     width: 20vw;
     background-color: var(--col6);
-        color:white;
+        color:white
     }
     
 .A2notes{
@@ -250,7 +254,7 @@ a:hover{
     padding: 5vh;
     width: 20vw;
     background-color: var(--col6);
-        color:white;
+        color:white
     }
     
 
@@ -287,12 +291,12 @@ a:hover{
     }
     
     @media screen and (max-width:600px){
-
+    
         .workcontainer{
             display: flex;
             flex-direction: column;
         }
-        .A2,.As{
+        .As,.A2{
             width: 50vw;
         }
         .about{
@@ -333,12 +337,13 @@ a:hover{
             justify-content: center;
             
         }
-
+ 
         .note{
             width: 60vw;
             height: 35vh;
             padding: 3vh;
             color: var(--col6);
         }
-
+    
     } 
+
