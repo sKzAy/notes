@@ -131,10 +131,8 @@ background-color: var(--col1)}
 
 @media screen and (max-width:600px){
     .alvl,.olvl{
-        padding-top: 1vh;
-        padding-bottom: 1vh;
-        padding-right: 5vw;
-        padding-left: 5vw;
+        padding: 5vh 5vw;
+        width: 50vw;
     }
     
 }
