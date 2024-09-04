@@ -316,10 +316,11 @@ a:hover{
                 padding-left: 0.2vw;
                 padding-right: 0.0vw;
                 padding-bottom: 1vh;
+                object-fit: scale-down;
             }
             .zainvid{
                 padding: 0px;
-                object-fit:scale-down;
+               
             }
             .contabout{
                 display: grid;
