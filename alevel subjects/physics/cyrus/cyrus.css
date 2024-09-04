@@ -305,6 +305,19 @@ iframe{
         padding: 0px ;
 
     }
+    .teacher1{
+        width: 40vw;
+        padding: 2vh;
+    }
+    .links{
+        width: 40vw;
+        padding: 2vh;
+    }
+    iframe{
+        width: fit-content;
+        height: fit-content;
+        padding: 4vw;
+    }
     .about p{
         padding-top: 1vh;
         padding-left: 0.2vw;
@@ -322,29 +335,13 @@ iframe{
         justify-content: center;
         
     }
-    iframe{
-        width: fit-content;
-        height: fit-content;
-        padding: 4vw;
-        
-        
 
-    }
     .note{
         width: 60vw;
         height: 35vh;
         padding: 3vh;
         color: var(--col6);
     }
-    .teacher1{
-        width: 40vw;
-        padding: 2vh;
-    }
-    .links{
-        width: 40vw;
-        padding: 2vh;
-    }
-
 
 
 } 

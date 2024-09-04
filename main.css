@@ -130,11 +130,7 @@ background-color: var(--col1)}
 }
 
 @media screen and (max-width:600px){
-    .h2a{
+    .h2a a{
         padding: 1vh 1vw;
     }
-
-
-
-
 }

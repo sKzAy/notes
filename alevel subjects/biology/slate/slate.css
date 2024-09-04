@@ -299,12 +299,25 @@ a:hover{
             width: 50vw;
         }
         .about{
-            width: 80vw;
+            width: 90vw;
             display: inline-block;
             /* font-size: x-small; */
             box-sizing: border-box;
             padding: 0px ;
-
+    
+        }
+        .teacher1{
+            width: 40vw;
+            padding: 2vh;
+        }
+        .links{
+            width: 40vw;
+            padding: 2vh;
+        }
+        iframe{
+            width: fit-content;
+            height: fit-content;
+            padding: 4vw;
         }
         .about p{
             padding-top: 1vh;
@@ -323,9 +336,7 @@ a:hover{
             justify-content: center;
             
         }
-        iframe{
-            width: 65vw;
-        }
+      
         .note{
             width: 60vw;
             height: 35vh;
