@@ -116,7 +116,7 @@ a:hover{
     border: none;
     border-radius: 15px;
     background-color: var(--col42) ;  
-      width: 20vw;
+    width: 20vw;
     padding: 5vh;
     border-radius: 15px;
     color: white;
@@ -330,6 +330,27 @@ iframe{
         height: 35vh;
         padding: 3vh;
         color: var(--col6);
+    }
+    .teacher1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 15px;
+        background-color: var(--col42) ;  
+        width: 40vw;
+        padding: 2vh;
+        border-radius: 15px;
+        color: white;
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bolder;
+        padding: 10;
+        
     }
 
 } 
