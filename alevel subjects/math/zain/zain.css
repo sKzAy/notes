@@ -306,7 +306,7 @@ a:hover{
             .aboutzain{
                 width: 80vw;
                 display: inline-block;
-                font-size: x-small;
+                /* font-size: x-small; */
                 box-sizing: border-box;
                 padding: 0.1vh ;
 
