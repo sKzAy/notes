@@ -133,6 +133,9 @@ background-color: var(--col1)}
     .container{
         flex-direction: column;
     }
+    .alvl,.olvl{
+        width: 50vw;
+    }
 
 
 
