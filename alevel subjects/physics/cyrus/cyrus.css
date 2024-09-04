@@ -324,8 +324,8 @@ iframe{
     }
     iframe{
         width: 65vw;
-        flex-wrap: nowrap;
-        
+        flex-wrap:wrap;
+
     }
     .note{
         width: 60vw;
