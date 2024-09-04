@@ -311,6 +311,9 @@ a:hover{
                 padding: 0.5vh ;
 
             }
+            .zainvid{
+                padding: 0.5vh;
+            }
             .contabout{
                 display: grid;
                 place-items: center;
