@@ -319,7 +319,7 @@ a:hover{
             }
             .zainvid{
                 padding: 0px;
-                object-fit: fill;
+                object-fit:scale-down;
             }
             .contabout{
                 display: grid;
