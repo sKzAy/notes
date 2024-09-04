@@ -224,7 +224,7 @@ a:hover{
     padding: 5vh;
     width: 20vw;
     background-color: var(--col6);
-        color:white
+        color:white;
     }
 
 .A2{
@@ -239,7 +239,7 @@ a:hover{
     padding: 5vh;
     width: 20vw;
     background-color: var(--col6);
-        color:white
+        color:white;
     }
     
 .A2notes{
@@ -254,7 +254,7 @@ a:hover{
     padding: 5vh;
     width: 20vw;
     background-color: var(--col6);
-        color:white
+        color:white;
     }
     
 
@@ -333,9 +333,7 @@ iframe{
         place-items: center;
         flex-direction: column;
         justify-content: center;
-        
     }
-
     .note{
         width: 60vw;
         height: 35vh;
