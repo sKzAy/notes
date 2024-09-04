@@ -308,11 +308,14 @@ a:hover{
                 display: inline-block;
                 /* font-size: x-small; */
                 box-sizing: border-box;
-                padding: 0.1vh ;
+                padding: 0px ;
 
             }
+            .aboutzain p{
+                padding: 1vh;
+            }
             .zainvid{
-                padding: 0.5vh;
+                padding: 0px;
             }
             .contabout{
                 display: grid;
@@ -328,6 +331,7 @@ a:hover{
                 width: 60vw;
                 height: 35vh;
                 padding: 3vh;
+                color: var(--col7);
             }
 
           
