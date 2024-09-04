@@ -291,12 +291,12 @@ a:hover{
     }
     
     @media screen and (max-width:600px){
-
+    
         .workcontainer{
             display: flex;
             flex-direction: column;
         }
-        .As,.Asnotes,.A2,.A2notes{
+        .As,.A2{
             width: 50vw;
         }
         .about{
@@ -337,13 +337,12 @@ a:hover{
             justify-content: center;
             
         }
-    
+  
         .note{
             width: 60vw;
             height: 35vh;
             padding: 3vh;
             color: var(--col6);
         }
-    
     
     } 
