@@ -323,8 +323,8 @@ iframe{
         
     }
     iframe{
-        width: 65vw;
-        flex-wrap:wrap;
+        width: fit-content;
+        height: fit-content;
 
     }
     .note{
