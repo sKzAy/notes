@@ -290,30 +290,28 @@ a:hover{
         }
 
         @media screen and (max-width:600px){
-            
-            .cont{
-                width: 800px;
-            }
-            .aboutzain{
-                display:inline-block;
-                width: 600px;
-            }
+
             .workcontainer{
                 display: flex;
                 flex-direction: column;
             }
-            .zainpaper1{
+            .zainpaper1,.zainpaper3,.zainmechanics,.zainstats{
                 width: 50vw;
             }
-            .zainpaper3{
-                width: 50vw;
+            .aboutzain{
+                display: inline-block;
+                font-size: smaller;
             }
-            .zainmechanics{
-                width: 50vw;
+            .contabout{
+                display: flex;
+                flex-direction: column;
             }
-            .zainstats{
-                width: 50vw;
+            .contvid{
+            object-fit: scale-down;
+              max-width: 100%;
+              max-height: 100%;
             }
+
 
 
             
