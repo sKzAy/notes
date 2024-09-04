@@ -304,6 +304,7 @@ a:hover{
                 width: 50vw;
             }
             .aboutzain{
+                width: 91vw;
                 display: inline-block;
                 font-size: smaller;
             }
@@ -312,9 +313,14 @@ a:hover{
                 flex-direction: column;
             }
             iframe{
-                width: 80vw;
+                width: 70vw;
             }
-         
+            .note{
+                width: 80vw;
+                height: 25vh;
+            }
+       
+          
         
         }       
 
