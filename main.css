@@ -130,13 +130,10 @@ background-color: var(--col1)}
 }
 
 @media screen and (max-width:600px){
-    .containercontainer{
-        flex-direction:column ;
+    .container{
+        flex-direction: column;
     }
-    .alvl,.olvl{
-        border-radius: 5px;
-        height: 20vh;
-        width: 50vw;
-    }
-    
+
+
+
 }
