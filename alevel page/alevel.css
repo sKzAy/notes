@@ -44,6 +44,17 @@ background-color: var(--col1);}
     color:#6700dd;
     text-decoration: underline;
 }
+.cont nav ul li a:hover{
+    color:rgb(69, 227, 255);
+}
+.cont nav ul li:hover{
+    background-color: rgb(50, 0, 70)
+}
+
+
+
+    
+
 .cont nav ul li{
     border-radius: 15px;
     border: none;
