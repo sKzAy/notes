@@ -324,7 +324,7 @@ iframe{
     }
     iframe{
         width: fit-content;
-        height: max-content;
+        height: 50vh;
 
     }
     .note{
