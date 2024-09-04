@@ -30,10 +30,22 @@ body{
     align-items: center;
     flex-direction:row;
     background-color:var(--col6);
-    
-    
-
 }
+.cont nav ul li a:hover{
+    color:rgb(69, 227, 255);
+}
+.cont nav ul li:hover{
+    background-color: rgb(50, 0, 70)
+}
+.links ul li a:hover{
+    color:rgb(69, 227, 255);
+    text-decoration: underline;
+}
+.workcontainer a:hover{
+    color:rgb(69, 227, 255);
+    text-decoration: underline;
+}
+
 
 
 .cont nav ul li{
@@ -70,9 +82,7 @@ a{
     text-decoration: none;
     color:white;
 }
-a:hover{
-    color:rgb(255, 0, 106) ;
-}
+
 
 /* END */
 

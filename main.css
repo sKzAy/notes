@@ -88,7 +88,8 @@ background-color: var(--col1)}
     
 }
 .o:hover,.a:hover{
-    color:rgb(255, 0, 106);
+    color:#7700ff;
+    text-decoration: underline;
 
 }
 

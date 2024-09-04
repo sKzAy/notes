@@ -70,8 +70,19 @@ a{
     text-decoration: none;
     color:white;
 }
-a:hover{
-    color:rgb(255, 0, 106) ;
+.cont nav ul li a:hover{
+    color:rgb(69, 227, 255);
+}
+.cont nav ul li:hover{
+    background-color: rgb(50, 0, 70)
+}
+.links ul li a:hover{
+    color:rgb(69, 227, 255);
+    text-decoration: underline;
+}
+.workcontainer a:hover{
+    color:rgb(69, 227, 255);
+    text-decoration: underline;
 }
 
 
