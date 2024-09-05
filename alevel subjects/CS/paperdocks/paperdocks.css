@@ -17,10 +17,12 @@ body{
         --col6:rgb(95, 95, 250);
         --col62:rgb(146, 146, 252);
         --col7:#7b93ca;
+        --dcolB: black;
         --dcolH:rgb(29, 29, 29);
         --dcolButton:rgba(34, 33, 33, 0.719);
         --dcolButton2:rgba(51, 49, 49, 0.719);
         --dcol2:rgb(65, 65, 65);
+        
       }
 
 
@@ -33,9 +35,21 @@ body{
     align-items: center;
     flex-direction:row;
     background-color:var(--col6);
-    
-    
-
+}
+.cont nav ul li a:hover{
+    color:rgb(69, 227, 255);
+    text-decoration: underline;
+}
+.cont nav ul li:hover{
+    background-color: rgb(50, 0, 70)
+}
+.links ul li a:hover{
+    color:rgb(69, 227, 255);
+    text-decoration: underline;
+}
+.workcontainer a:hover{
+    color:rgb(69, 227, 255);
+    text-decoration: underline;
 }
 
 
@@ -73,27 +87,11 @@ a{
     text-decoration: none;
     color:white;
 }
-.cont nav ul li a:hover{
-    color:rgb(69, 227, 255);
-    text-decoration: underline;
-}
-.cont nav ul li:hover{
-    background-color: rgb(50, 0, 70)
-}
-.links ul li a:hover{
-    color:rgb(69, 227, 255);
-    text-decoration: underline;
-}
-.workcontainer a:hover{
-    color:rgb(69, 227, 255);
-    text-decoration: underline;
-}
-
 
 
 /* END */
 
-.mathcont , .links{
+.namecont , .links{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,7 +102,7 @@ a{
     color: white;
     
 }
-.mathcont{
+.namecont{
     background-color: var(--col42) ;
 }
 
@@ -178,6 +176,7 @@ a{
     position: relative;
     left: 3vw;
 }
+
 .vid{
  display: flex;
  justify-content: center;
@@ -197,11 +196,11 @@ a{
 
 }
 
-.paper1 div h3{
+.firstbox div h3{
     text-decoration: underline;
 
 }
-.paper1{
+.firstbox{
     border: none;
     border-radius: 15px;
     display: flex;
@@ -214,19 +213,20 @@ a{
     width: 20vw;
     color: white;
     background-color: var(--col6);
+    
 }
 .workcontainer{
     display: flex;
-    justify-content: center;
+    
     align-items: center;
 }
-.paper1 div li a:hover{
+.firstbox div li a:hover{
     text-decoration: underline;
 }
-.p2 div li a:hover{
+.secondbox div li a:hover{
     text-decoration: underline;
 }
-.p2{
+.secondbox{
     border: none;
     border-radius: 15px;
     display: flex;
@@ -240,9 +240,10 @@ a{
     background-color: var(--col6);
         color:white
     }
-
-
-.p3{
+.ematics div li a:hover{
+    text-decoration: underline;
+}
+.fourthbox{
     border: none;
     border-radius: 15px;
     display: flex;
@@ -256,8 +257,11 @@ a{
     background-color: var(--col6);
         color:white
     }
+    .fourthbox div li a:hover{
+        text-decoration: underline;}
     
-.p4{
+    
+.thirdbox{
     border: none;
     border-radius: 15px;
     display: flex;
@@ -271,126 +275,130 @@ a{
     background-color: var(--col6);
         color:white
     }
-    .workcontainer li{  
-        list-style-type: none;
-    }
-    
+    .thirdbox div li a:hover{
+        text-decoration: underline;}
 
-    .note{
-        border: none;
-        border-radius: 5vh;
-        padding: 3vh;
-        font-size: smaller;
-        height: 20vh;
-        width: 50vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color:var(--col5);
-        color: white;
-    }
-    
-    .abunote{
-        display: flex;
-        justify-content: center;
-        
-    }
-
-    iframe{
-        width: 600px;
-        height:340px;
-        display: block;
-    }
-
-    @media screen and (max-width:600px){
-
-        .workcontainer{
-            display: flex;
-            flex-direction: column;
+        .workcontainer li{  
+            list-style-type: none;
         }
-        .paper1,.p2,.p3,.p4{
+
+        .note{
+            border: none;
+            border-radius: 5vh;
+            padding: 3vh;
+            font-size: smaller;
+            height: 20vh;
             width: 50vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:var(--col5);
+            color: white;
         }
-        .about{
-            width: 90vw;
-            display: inline-block;
-            /* font-size: x-small; */
-            box-sizing: border-box;
-            padding: 0px ;
-    
-        }
-        .teacher1{
-            width: 40vw;
-            padding: 2vh;
-        }
-        .links{
-            width: 40vw;
-            padding: 2vh;
-        }
-        iframe{
-            width: fit-content;
-            height: fit-content;
-            padding: 4vw;
-        }
-        .about p{
-            padding-top: 1vh;
-            padding-left: 0.2vw;
-            padding-right: 0.0vw;
-            padding-bottom: 1vh;
-        }
-        .vid{
-            padding: 0px;
-           
-        }
-        .contabout{
-            display: grid;
-            place-items: center;
-            flex-direction: column;
+        
+        .abunote{
+            display: flex;
             justify-content: center;
             
         }
-
-        .note{
-            width: 60vw;
-            height: 35vh;
-            padding: 3vh;
-            color: var(--col6);
+        iframe{
+            width: 600px;
+            height:340px;
+            display: block;
         }
 
-    } 
+        @media screen and (max-width:600px){
+
+            .workcontainer{
+                display: flex;
+                flex-direction: column;
+            }
+            .firstbox,.secondbox,.fourthbox,.thirdbox{
+                width: 50vw;
+            }
+            .about{
+                width: 90vw;
+                display: inline-block;
+                /* font-size: x-small; */
+                box-sizing: border-box;
+                padding: 0px ;
+        
+            }
+            .teacher1{
+                width: 40vw;
+                padding: 2vh;
+            }
+            .links{
+                width: 40vw;
+                padding: 2vh;
+            }
+            iframe{
+                width: fit-content;
+                height: fit-content;
+                padding: 4vw;
+            }
+            .about p{
+                padding-top: 1vh;
+                padding-left: 0.2vw;
+                padding-right: 0.0vw;
+                padding-bottom: 1vh;
+            }
+            .vid{
+                padding: 0px;
+               
+            }
+            .contabout{
+                display: grid;
+                place-items: center;
+                flex-direction: column;
+                justify-content: center;
+                
+            }
+
+            .note{
+                width: 60vw;
+                height: 35vh;
+                padding: 3vh;
+                color: var(--col6);
+            }
+
+          
+           
+          
+        
+        }       
 
 
-    @media (prefers-color-scheme: dark){
-        *{
-            color: white;
-        }
-        body{
-            background-color: black;
-        }
-        .cont{
-            background-color: var(--dcolH);
-        }
-        .cont nav ul li {
-            background-color: var(--dcolButton2);
-        }
-        .mathcont{
-            background-color: var(--dcolButton);
-        }
-        .links{
-            background-color: var(--dcol2);
-        }
-        .teacher1{
-            background-color: var(--dcolButton);
-        }
-        .about{
-            background-color:var(--dcol2);
-        }
-        .note{
-            background-color: var(--dcolButton2);
-        }
-        .paper1,.p2,.p3,.p4{
-            background-color:var(--dcol2) ;
-        }
-    
-    
+        @media (prefers-color-scheme: dark){
+    *{
+        color: white;
     }
+    body{
+        background-color: black;
+    }
+    .cont{
+        background-color: var(--dcolH);
+    }
+    .cont nav ul li {
+        background-color: var(--dcolButton2);
+    }
+    .namecont{
+        background-color: var(--dcolButton);
+    }
+    .links{
+        background-color: var(--dcol2);
+    }
+    .teacher1{
+        background-color: var(--dcolButton);
+    }
+    .about{
+        background-color:var(--dcol2);
+    }
+    .note{
+        background-color: var(--dcolButton2);
+    }
+    .firstbox,.secondbox,.thirdbox,.fourthbox{
+        background-color:var(--dcol2) ;
+    }
+
+        }

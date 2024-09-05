@@ -93,7 +93,7 @@ a{
 
 /* END */
 
-.mathcont , .links{
+.namecont , .links{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,7 +104,7 @@ a{
     color: white;
     
 }
-.mathcont{
+.namecont{
     background-color: var(--col42) ;
 }
 
@@ -197,11 +197,11 @@ a{
 
 }
 
-.paper1 div h3{
+.firstbox div h3{
     text-decoration: underline;
 
 }
-.paper1{
+.firstbox{
     border: none;
     border-radius: 15px;
     display: flex;
@@ -221,13 +221,13 @@ a{
     justify-content: center;
     align-items: center;
 }
-.paper1 div li a:hover{
+.firstbox div li a:hover{
     text-decoration: underline;
 }
-.p2 div li a:hover{
+.secondbox div li a:hover{
     text-decoration: underline;
 }
-.p2{
+.secondbox{
     border: none;
     border-radius: 15px;
     display: flex;
@@ -243,7 +243,7 @@ a{
     }
 
 
-.p3{
+.thirdbox{
     border: none;
     border-radius: 15px;
     display: flex;
@@ -258,7 +258,7 @@ a{
         color:white
     }
     
-.p4{
+.fourthbox{
     border: none;
     border-radius: 15px;
     display: flex;
@@ -309,7 +309,7 @@ a{
             display: flex;
             flex-direction: column;
         }
-        .paper1,.p2,.p3,.p4{
+        .firstbox,.secondbox,.thirdbox,.fourthbox{
             width: 50vw;
         }
         .about{
@@ -373,7 +373,7 @@ a{
         .cont nav ul li {
             background-color: var(--dcolButton2);
         }
-        .mathcont{
+        .namecont{
             background-color: var(--dcolButton);
         }
         .links{
@@ -388,7 +388,7 @@ a{
         .note{
             background-color: var(--dcolButton2);
         }
-        .paper1,.p2,.p3,.p4{
+        .firstbox,.secondbox,.thirdbox,.fourthbox{
             background-color:var(--dcol2) ;
         }
     

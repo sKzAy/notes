@@ -11,13 +11,17 @@ body {
   --col1: #edf2fa;
   --col2: #d7e3fc;
   --col3: #ccdbfd;
-  --col4: #c1d3fe;
+  --col4: #729dff;
+  --col42: #8eb0ff;
   --col5: #abc4ff;
   --col6: rgb(95, 95, 250);
+  --col62: rgb(146, 146, 252);
   --col7: #7b93ca;
   --dcolB: black;
   --dcolH: rgb(29, 29, 29);
   --dcolButton: rgba(34, 33, 33, 0.719);
+  --dcolButton2: rgba(51, 49, 49, 0.719);
+  --dcol2: rgb(65, 65, 65);
 }
 
 .Fh {
@@ -35,7 +39,7 @@ body {
   display: flex;
 }
 
-.container {
+.containermain {
   border: none;
   border-radius: 15px;
   margin: 2vh;
@@ -146,7 +150,7 @@ body {
   .Fh {
     background-color: rgb(29, 29, 29);
   }
-  .container {
+  .containermain {
     background-color: rgba(34, 33, 33, 0.719);
   }
   .alvl,
@@ -158,61 +162,48 @@ body {
   }
 }
 
-
-
 /* A LEVELS SELECTION PAGE */
 
-
-
-.contalvl{
+.contalvl {
   border: none;
   height: 10vh;
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction:row;
+  flex-direction: row;
   /* remove padding once u add colors */
   position: static;
   background-color: var(--col6);
-  
 }
-.contalvl nav ul li a{
- text-align: center;
- color: white;
-
+.contalvl nav ul li a {
+  text-align: center;
+  color: white;
 }
-.contalvl nav ul li a:hover{
-  color:#6700dd;
+.contalvl nav ul li a:hover {
+  color: #6700dd;
   text-decoration: underline;
 }
-.contalvl nav ul li a:hover{
-  color:rgb(69, 227, 255);
+.contalvl nav ul li a:hover {
+  color: rgb(69, 227, 255);
 }
-.contalvl nav ul li:hover{
-  background-color: rgb(50, 0, 70)
+.contalvl nav ul li:hover {
+  background-color: rgb(50, 0, 70);
 }
 
-
-
-  
-
-.contalvl nav ul li{
+.contalvl nav ul li {
   border-radius: 15px;
   border: none;
-  background-color:var(--col5) ;
-
+  background-color: var(--col5);
 }
 
-
-
-nav ul li{
+nav ul li {
   list-style-type: none;
   position: static;
 }
 
-nav ul li{
-  border: 1px solid black; 
+nav ul li {
+  border: 1px solid black;
   width: 70px;
   display: flex;
   justify-content: center;
@@ -221,193 +212,173 @@ nav ul li{
   font-weight: bolder;
 }
 
-
-nav ul{
+nav ul {
   display: flex;
   gap: 10vw;
   justify-content: center;
   align-items: center;
 }
-a{
+a {
   text-decoration: none;
   color: black;
 }
 
 /* END */
-.sub{
+.sub {
   border: 1px solid;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 5vh;
-
 }
-.subhead{
-
+.subhead {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 5vh;
   margin: 5vh;
-  
-  
 }
-.subhead div h2{
-  text-decoration:underline;
+.subhead div h2 {
+  text-decoration: underline;
   color: white;
 }
 
-.subjects{
+.subjects {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.subjects ul li{
+.subjects ul li {
   border: none;
   border-radius: 15px;
-  background-color: var(--col6) ;
+  background-color: var(--col6);
   margin: 5px;
   padding: 15px;
   font-weight: bold;
   list-style-type: none;
-
 }
-.subjects ul li a{
-  color:white;
+.subjects ul li a {
+  color: white;
 }
-.subjects ul li a:hover{
-  color:rgb(69, 227, 255);
+.subjects ul li a:hover {
+  color: rgb(69, 227, 255);
   text-decoration: underline;
 }
-.subjects ul :hover{
+.subjects ul :hover {
   background-color: rgb(50, 0, 70);
 }
 
-
-
-
-.subjects ul li{
-  list-style-position:inside;
+.subjects ul li {
+  list-style-position: inside;
   /* list-style-image: url(/assets/iStock-1087508538.webp);
   background-repeat: no-repeat;
   list-style-image: ;
 } */
 }
 
-.mega{
-  border:none;
+.mega {
+  border: none;
   border-radius: 15px;
   margin: 10px;
   padding: 1vh;
   height: 90vh;
   width: 70vw;
-  background-color:var(--col42) ;
-  ;
+  background-color: var(--col42);
 }
 
-.megamega{
+.megamega {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
-@media (prefers-color-scheme: dark){
-  *{
-      color: white;
+@media (prefers-color-scheme: dark) {
+  * {
+    color: white;
   }
-  body{
-      background-color: black;
+  body {
+    background-color: black;
   }
 
-  .contalvl{
-      background-color: var(--dcolH);
+  .contalvl {
+    background-color: var(--dcolH);
   }
   .contalvl nav ul li {
-      background-color: var(--dcolButton2);
+    background-color: var(--dcolButton2);
   }
-  .mega{
-      background-color: var(--dcolButton);
+  .mega {
+    background-color: var(--dcolButton);
   }
   .subjects ul li {
-      background-color: black;
+    background-color: black;
   }
-
 }
-
 
 /* ALL OTHER PAGES */
 
-
-
-
-.cont{
+.cont {
   border: none;
   height: 10vh;
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction:row;
-  background-color:var(--col6);
+  flex-direction: row;
+  background-color: var(--col6);
 }
-.cont nav ul li a:hover{
-  color:rgb(69, 227, 255);
+.cont nav ul li a:hover {
+  color: rgb(69, 227, 255);
   text-decoration: underline;
 }
-.cont nav ul li:hover{
-  background-color: rgb(50, 0, 70)
+.cont nav ul li:hover {
+  background-color: rgb(50, 0, 70);
 }
-.links ul li a:hover{
-  color:rgb(69, 227, 255);
+.links ul li a:hover {
+  color: rgb(69, 227, 255);
   text-decoration: underline;
 }
-.workcontainer a:hover{
-  color:rgb(69, 227, 255);
+.workcontainer a:hover {
+  color: rgb(69, 227, 255);
   text-decoration: underline;
 }
 
-
-.cont nav ul li{
+.cont nav ul li {
   list-style-type: none;
-  
 }
-.cont nav ul li a{
+.cont nav ul li a {
   align-items: center;
 }
 
-.cont nav ul li{
-  border:none; 
+.cont nav ul li {
+  border: none;
   border-radius: 15px;
   width: 70px;
   display: flex;
   justify-content: center;
   padding: 10px;
   font-weight: bolder;
-  background-color:var(--col5);
+  background-color: var(--col5);
   color: white;
 }
-.aboutme{
+.aboutme {
   text-align: center;
 }
 
-nav ul{
+nav ul {
   display: flex;
   gap: 10vw;
   justify-content: center;
   align-items: center;
-  
 }
-a{
+a {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
 
-/* END */
-
-.mathcont , .links{
+.namecont,
+.links {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -416,92 +387,92 @@ a{
   padding: 5vh;
   margin: 5vh;
   color: white;
-  
 }
-.mathcont{
-  background-color: var(--col42) ;
+.namecont {
+  background-color: var(--col42);
 }
 
-.linkscontainer{
+.linkscontainer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.links{
+.links {
   width: 25vw;
   font-weight: bolder;
   border-radius: 15px;
-  background-color: var(--col6) ;
-
+  background-color: var(--col6);
 }
-.links ul li{
+.links ul li {
   margin: 2vh;
   text-decoration: none;
 }
 
-.zainematics{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.teacher1 {
   border: none;
   border-radius: 15px;
-  background-color: var(--col42) ;  
-    width: 20vw;
+  background-color: var(--col42);
+  width: 20vw;
   padding: 5vh;
   border-radius: 15px;
   color: white;
   text-align: center;
+  font-weight: bolder;
 }
-.zaincontainer{
+ .container {
+  font-weight: bolder;
+  padding: 0px;
+  /* background-color:var(--col1); */
+  
+  }
+.teachercontainer{
+  padding: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: bolder;
-  padding: 10;
-  
 }
-.aboutzain div:nth-child(1){
+.about div:nth-child(1) {
   margin: 50px;
   font-weight: bolder;
 }
 
-.aboutzain{
+.about {
   border: none;
   border-radius: 15px;
   display: flex;
   justify-content: left;
   align-content: center;
-  align-items: center ;
+  align-items: center;
   justify-items: center;
   margin: 5vh;
   padding: 2vh;
   color: white;
-  background-color: var(--col4) ;}
-.aboutzain h3{
+  background-color: var(--col4);
+}
+.about h3 {
   text-decoration: underline;
 }
-.aboutzain p{
+.about p {
   padding: 3vh;
 }
-.aboutzain iframe{
+.about iframe {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.aboutzain ul{
+.about ul {
   position: relative;
   left: 3vw;
 }
 
-.zainvid{
-display: flex;
-justify-content: center;
-align-items: center;
-position: relative;
-
+.vid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-.resources{
+.resources {
   border: 1px solid;
   display: block;
   width: 30vw;
@@ -509,214 +480,227 @@ position: relative;
   padding: 3vh;
   margin: 2vh;
   text-decoration: none;
-
 }
 
-.zainpaper1 div h3{
+.firstbox div h3 {
   text-decoration: underline;
-
 }
-.zainpaper1{
+.firstbox {
   border: none;
   border-radius: 15px;
   display: flex;
   justify-content: left;
   align-content: center;
-  align-items: center ;
+  align-items: center;
   justify-items: center;
   margin: 5vh;
   padding: 5vh;
   width: 20vw;
   color: white;
   background-color: var(--col6);
-  
 }
-.workcontainer{
+.workcontainer {
   display: flex;
-  
+
   align-items: center;
 }
-.zainpaper1 div li a:hover{
+
+.workcontainerspecial li {
+  list-style-type: none;
+}
+.workcontainerspecial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.workcontainerspecial a:hover {
+  color: rgb(69, 227, 255);
   text-decoration: underline;
 }
-.zainpaper3 div li a:hover{
+
+.firstbox div li a:hover {
   text-decoration: underline;
 }
-.zainpaper3{
+.secondbox div li a:hover {
+  text-decoration: underline;
+}
+.secondbox {
   border: none;
   border-radius: 15px;
   display: flex;
   justify-content: left;
   align-content: center;
-  align-items: center ;
+  align-items: center;
   justify-items: center;
   margin: 5vh;
   padding: 5vh;
   width: 20vw;
   background-color: var(--col6);
-      color:white
-  }
-.zainematics div li a:hover{
+  color: white;
+}
+.teacher1 div li a:hover {
   text-decoration: underline;
 }
-.zainmechanics{
+.fourthbox {
   border: none;
   border-radius: 15px;
   display: flex;
   justify-content: left;
   align-content: center;
-  align-items: center ;
+  align-items: center;
   justify-items: center;
   margin: 5vh;
   padding: 5vh;
   width: 20vw;
   background-color: var(--col6);
-      color:white
-  }
-  .zainmechanics div li a:hover{
-      text-decoration: underline;}
-  
-  
-.zainstats{
+  color: white;
+}
+.fourthbox div li a:hover {
+  text-decoration: underline;
+}
+
+.thirdbox {
   border: none;
   border-radius: 15px;
   display: flex;
   justify-content: left;
   align-content: center;
-  align-items: center ;
+  align-items: center;
   justify-items: center;
   margin: 5vh;
   padding: 5vh;
   width: 20vw;
   background-color: var(--col6);
-      color:white
+  color: white;
+}
+.thirdbox div li a:hover {
+  text-decoration: underline;
+}
+
+.workcontainer li {
+  list-style-type: none;
+}
+
+.note {
+  border: none;
+  border-radius: 5vh;
+  padding: 3vh;
+  font-size: smaller;
+  height: 20vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--col5);
+  color: white;
+}
+
+.abunote {
+  display: flex;
+  justify-content: center;
+}
+iframe {
+  width: 600px;
+  height: 340px;
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .workcontainer {
+    display: flex;
+    flex-direction: column;
   }
-  .zainstats div li a:hover{
-      text-decoration: underline;}
-
-      .workcontainer li{  
-          list-style-type: none;
-      }
-
-
-
-      .note{
-          border: none;
-          border-radius: 5vh;
-          padding: 3vh;
-          font-size: smaller;
-          height: 20vh;
-          width: 50vw;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          background-color:var(--col5);
-          color: white;
-      }
-      
-      .abunote{
-          display: flex;
-          justify-content: center;
-          
-      }
-      iframe{
-          width: 600px;
-          height:340px;
-          display: block;
-      }
-
-      @media screen and (max-width:600px){
-
-          .workcontainer{
-              display: flex;
-              flex-direction: column;
-          }
-          .zainpaper1,.zainpaper3,.zainmechanics,.zainstats{
-              width: 50vw;
-          }
-          .aboutzain{
-              width: 90vw;
-              display: inline-block;
-              /* font-size: x-small; */
-              box-sizing: border-box;
-              padding: 0px ;
-      
-          }
-          .zainematics{
-              width: 40vw;
-              padding: 2vh;
-          }
-          .links{
-              width: 40vw;
-              padding: 2vh;
-          }
-          iframe{
-              width: fit-content;
-              height: fit-content;
-              padding: 4vw;
-          }
-          .aboutzain p{
-              padding-top: 1vh;
-              padding-left: 0.2vw;
-              padding-right: 0.0vw;
-              padding-bottom: 1vh;
-          }
-          .zainvid{
-              padding: 0px;
-             
-          }
-          .contabout{
-              display: grid;
-              place-items: center;
-              flex-direction: column;
-              justify-content: center;
-              
-          }
-
-          .note{
-              width: 60vw;
-              height: 35vh;
-              padding: 3vh;
-              color: var(--col6);
-          }
-
-        
-         
-        
-      
-      }       
-
-
-      @media (prefers-color-scheme: dark){
-  *{
-      color: white;
+  .workcontainerspecial {
+    display: flex;
+    flex-direction: column;
   }
-  body{
-      background-color: black;
+  .firstbox,
+  .secondbox,
+  .fourthbox,
+  .thirdbox {
+    width: 50vw;
   }
-  .cont{
-      background-color: var(--dcolH);
+  .about {
+    width: 90vw;
+    display: inline-block;
+    /* font-size: x-small; */
+    box-sizing: border-box;
+    padding: 0px;
+  }
+  .teacher1 {
+    width: 40vw;
+    padding: 2vh;
+  }
+  .links {
+    width: 40vw;
+    padding: 2vh;
+  }
+  iframe {
+    width: fit-content;
+    height: fit-content;
+    padding: 4vw;
+  }
+  .about p {
+    padding-top: 1vh;
+    padding-left: 0.2vw;
+    padding-right: 0vw;
+    padding-bottom: 1vh;
+  }
+  .vid {
+    padding: 0px;
+  }
+  .contabout {
+    display: grid;
+    place-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .note {
+    width: 60vw;
+    height: 35vh;
+    padding: 3vh;
+    color: var(--col6);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  * {
+    color: white;
+  }
+  body {
+    background-color: black;
+  }
+  .cont {
+    background-color: var(--dcolH);
   }
   .cont nav ul li {
-      background-color: var(--dcolButton2);
+    background-color: var(--dcolButton2);
   }
-  .mathcont{
-      background-color: var(--dcolButton);
+  .namecont {
+    background-color: var(--dcolButton);
   }
-  .links{
-      background-color: var(--dcol2);
+  .links {
+    background-color: var(--dcol2);
   }
-  .zainematics{
-      background-color: var(--dcolButton);
+  .teacher1 {
+    background-color: var(--dcolButton);
   }
-  .aboutzain{
-      background-color:var(--dcol2);
+  .about {
+    background-color: var(--dcol2);
   }
-  .note{
-      background-color: var(--dcolButton2);
+  .note {
+    background-color: var(--dcolButton2);
   }
-  .zainpaper1,.zainpaper3,.zainstats,.zainmechanics{
-      background-color:var(--dcol2) ;
+  .firstbox,
+  .secondbox,
+  .thirdbox,
+  .fourthbox {
+    background-color: var(--dcol2);
   }
+  .container{
+    background-color: black;
+  }
+}
 
-      }
+/* SPECIAL SHIT */

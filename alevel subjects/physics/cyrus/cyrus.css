@@ -17,12 +17,10 @@ body{
         --col6:rgb(95, 95, 250);
         --col62:rgb(146, 146, 252);
         --col7:#7b93ca;
-        --dcolB: black;
         --dcolH:rgb(29, 29, 29);
         --dcolButton:rgba(34, 33, 33, 0.719);
         --dcolButton2:rgba(51, 49, 49, 0.719);
         --dcol2:rgb(65, 65, 65);
-        
         
       }
 
@@ -92,6 +90,7 @@ a{
     text-decoration: underline;
 }
 
+
 /* END */
 
 .namecont , .links{
@@ -133,7 +132,7 @@ a{
     border: none;
     border-radius: 15px;
     background-color: var(--col42) ;  
-    width: 20vw;
+      width: 20vw;
     padding: 5vh;
     border-radius: 15px;
     color: white;
@@ -177,9 +176,8 @@ a{
 }
 .about ul{
     position: relative;
-    left: 3vw;
+    left: 4vw;
 }
-
 .vid{
  display: flex;
  justify-content: center;
@@ -199,11 +197,11 @@ a{
 
 }
 
-.As div h3{
+.firstbox div h3{
     text-decoration: underline;
 
 }
-.As{
+.firstbox{
     border: none;
     border-radius: 15px;
     display: flex;
@@ -220,16 +218,16 @@ a{
 }
 .workcontainer{
     display: flex;
-    
+    justify-content: center;
     align-items: center;
 }
-.As div li a:hover{
+.firstbox div li a:hover{
     text-decoration: underline;
 }
-.Asnotes div li a:hover{
+.secondbox div li a:hover{
     text-decoration: underline;
 }
-.Asnotes{
+.secondbox{
     border: none;
     border-radius: 15px;
     display: flex;
@@ -241,156 +239,162 @@ a{
     padding: 5vh;
     width: 20vw;
     background-color: var(--col6);
-        color:white;
+        color:white
     }
 
-.A2{
-    border: none;
-    border-radius: 15px;
-    display: flex;
-    justify-content: left;
-    align-content: center;
-    align-items: center ;
-    justify-items: center;
-    margin: 5vh;
-    padding: 5vh;
-    width: 20vw;
-    background-color: var(--col6);
-        color:white;
-    }
-    
-.A2notes{
-    border: none;
-    border-radius: 15px;
-    display: flex;
-    justify-content: left;
-    align-content: center;
-    align-items: center ;
-    justify-items: center;
-    margin: 5vh;
-    padding: 5vh;
-    width: 20vw;
-    background-color: var(--col6);
-        color:white;
-    }
-    
 
+.thirdbox{
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center ;
+    justify-items: center;
+    margin: 5vh;
+    padding: 5vh;
+    width: 20vw;
+    background-color: var(--col6);
+        color:white
+    }
+    
+.fourthbox{
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center ;
+    justify-items: center;
+    margin: 5vh;
+    padding: 5vh;
+    width: 20vw;
+    background-color: var(--col6);
+        color:white
+    }
     .workcontainer li{  
         list-style-type: none;
     }
 
-.note{
-    border: none;
-    border-radius: 5vh;
-    padding: 3vh;
-    font-size: smaller;
-    height: 20vh;
-    width: 50vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:var(--col5);
-    color: white;
-}
 
-.abunote{
-    display: flex;
-    justify-content: center;
-    
-}  
-
-iframe{
-    width: 600px;
-    height:340px;
-    display: block;
-}
-
-@media screen and (max-width:600px){
-
-    .workcontainer{
-        display: flex;
-        flex-direction: column;
-    }
-    .As,.Asnotes,.A2,.A2notes{
-        width: 50vw;
-    }
-    .about{
-        width: 90vw;
-        display: inline-block;
-        /* font-size: x-small; */
-        box-sizing: border-box;
-        padding: 0px ;
-
-    }
-    .teacher1{
-        width: 40vw;
-        padding: 2vh;
-    }
-    .links{
-        width: 40vw;
-        padding: 2vh;
-    }
-    iframe{
-        width: fit-content;
-        height: fit-content;
-        padding: 4vw;
-    }
-    .about p{
-        padding-top: 1vh;
-        padding-left: 0.2vw;
-        padding-right: 0.0vw;
-        padding-bottom: 1vh;
-    }
-    .vid{
-        padding: 0px;
-       
-    }
-    .contabout{
-        display: grid;
-        place-items: center;
-        flex-direction: column;
-        justify-content: center;
-    }
     .note{
-        width: 60vw;
-        height: 35vh;
+        border: none;
+        border-radius: 5vh;
         padding: 3vh;
-        color: var(--col6);
-    }
-
-} 
-@media (prefers-color-scheme: dark){
-    *{
+        font-size: smaller;
+        height: 20vh;
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:var(--col5);
         color: white;
     }
-    body{
-        background-color: black;
-    }
-    .cont{
-        background-color: var(--dcolH);
-    }
-    .cont nav ul li {
-        background-color: var(--dcolButton2);
-    }
-    .namecont{
-        background-color: var(--dcolButton);
-    }
-    .links{
-        background-color: var(--dcol2);
-    }
-    .teacher1{
-        background-color: var(--dcolButton);
-    }
-    .about{
-        background-color:var(--dcol2);
-    }
-    .note{
-        background-color: var(--dcolButton2);
-    }
-    .As,.Asnotes,.A2notes,.A2{
-        background-color:var(--dcol2) ;
+    
+    .abunote{
+        display: flex;
+        justify-content: center;
+        
     }
 
+    iframe{
+        width: 600px;
+        height:340px;
+        display: block;
+    }
 
-}
+    @media screen and (max-width:600px){
+
+        .workcontainer{
+            display: flex;
+            flex-direction: column;
+        }
+        .firstbox,.secondbox,.thirdbox,.fourthbox{
+            width: 50vw;
+        }
+        .about{
+            width: 90vw;
+            display: inline-block;
+            /* font-size: x-small; */
+            box-sizing: border-box;
+            padding: 0px ;
+    
+        }
+        .teacher1{
+            width: 40vw;
+            padding: 2vh;
+        }
+        .links{
+            width: 40vw;
+            padding: 2vh;
+        }
+        iframe{
+            width: fit-content;
+            height: fit-content;
+            padding: 4vw;
+        }
+        .about p{
+            padding-top: 1vh;
+            padding-left: 0.2vw;
+            padding-right: 0.0vw;
+            padding-bottom: 1vh;
+        }
+        .vid{
+            padding: 0px;
+           
+        }
+        .contabout{
+            display: grid;
+            place-items: center;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+
+        .note{
+            width: 60vw;
+            height: 35vh;
+            padding: 3vh;
+            color: var(--col6);
+        }
+
+    } 
+
+    @media (prefers-color-scheme: dark){
+        *{
+            color: white;
+        }
+        body{
+            background-color: black;
+        }
+        .cont{
+            background-color: var(--dcolH);
+        }
+        .cont nav ul li {
+            background-color: var(--dcolButton2);
+        }
+        .namecont{
+            background-color: var(--dcolButton);
+        }
+        .links{
+            background-color: var(--dcol2);
+        }
+        .teacher1{
+            background-color: var(--dcolButton);
+        }
+        .about{
+            background-color:var(--dcol2);
+        }
+        .note{
+            background-color: var(--dcolButton2);
+        }
+        .firstbox,.secondbox,.thirdbox,.fourthbox{
+            background-color:var(--dcol2) ;
+        }
+    
+    
+    }
+    
+
+
 

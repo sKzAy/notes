@@ -196,11 +196,11 @@ a{
 
 }
 
-.paper1 div h3{
+.firstbox div h3{
     text-decoration: underline;
 
 }
-.paper1{
+.firstbox{
     border: none;
     border-radius: 15px;
     display: flex;
@@ -220,13 +220,13 @@ a{
     
     align-items: center;
 }
-.paper1 div li a:hover{
+.firstbox div li a:hover{
     text-decoration: underline;
 }
-.paper3 div li a:hover{
+.secondbox div li a:hover{
     text-decoration: underline;
 }
-.paper3{
+.secondbox{
     border: none;
     border-radius: 15px;
     display: flex;
@@ -243,7 +243,7 @@ a{
 .ematics div li a:hover{
     text-decoration: underline;
 }
-.mechanics{
+.fourthbox{
     border: none;
     border-radius: 15px;
     display: flex;
@@ -257,11 +257,11 @@ a{
     background-color: var(--col6);
         color:white
     }
-    .mechanics div li a:hover{
+    .fourthbox div li a:hover{
         text-decoration: underline;}
     
     
-.stats{
+.thirdbox{
     border: none;
     border-radius: 15px;
     display: flex;
@@ -275,7 +275,7 @@ a{
     background-color: var(--col6);
         color:white
     }
-    .stats div li a:hover{
+    .thirdbox div li a:hover{
         text-decoration: underline;}
 
         .workcontainer li{  
@@ -313,7 +313,7 @@ a{
                 display: flex;
                 flex-direction: column;
             }
-            .paper1,.paper3,.mechanics,.stats{
+            .firstbox,.secondbox,.fourthbox,.thirdbox{
                 width: 50vw;
             }
             .about{
@@ -397,7 +397,7 @@ a{
     .note{
         background-color: var(--dcolButton2);
     }
-    .paper1,.paper3,.stats,.mechanics{
+    .firstbox,.secondbox,.thirdbox,.fourthbox{
         background-color:var(--dcol2) ;
     }
 
