@@ -130,7 +130,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .container {
+  .containermain {
     flex-direction: column;
   }
   .alvl,
