@@ -94,7 +94,7 @@ a{
 
 /* END */
 
-.mathcont , .links{
+.namecont , .links{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,7 +105,7 @@ a{
     color: white;
     
 }
-.mathcont{
+.namecont{
     background-color: var(--col42) ;
 }
 
@@ -126,7 +126,7 @@ a{
     text-decoration: none;
 }
 
-.zainematics{
+.teacher1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,7 +139,7 @@ a{
     color: white;
     text-align: center;
 }
-.zaincontainer{
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,12 +147,12 @@ a{
     padding: 10;
     
 }
-.aboutzain div:nth-child(1){
+.about div:nth-child(1){
     margin: 50px;
     font-weight: bolder;
 }
 
-.aboutzain{
+.about{
     border: none;
     border-radius: 15px;
     display: flex;
@@ -164,23 +164,22 @@ a{
     padding: 2vh;
     color: white;
     background-color: var(--col4) ;}
-.aboutzain h3{
+.about h3{
     text-decoration: underline;
 }
-.aboutzain p{
+.about p{
     padding: 3vh;
 }
-.aboutzain iframe{
+.about iframe{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.aboutzain ul{
+.about ul{
     position: relative;
     left: 3vw;
 }
-
-.zainvid{
+.vid{
  display: flex;
  justify-content: center;
  align-items: center;
@@ -199,11 +198,11 @@ a{
 
 }
 
-.zainpaper1 div h3{
+.paper1 div h3{
     text-decoration: underline;
 
 }
-.zainpaper1{
+.paper1{
     border: none;
     border-radius: 15px;
     display: flex;
@@ -223,14 +222,13 @@ a{
     justify-content: center;
     align-items: center;
 }
-
-.zainpaper1 div li a:hover{
+.paper1 div li a:hover{
     text-decoration: underline;
 }
-.zainpaper3 div li a:hover{
+.paper3 div li a:hover{
     text-decoration: underline;
 }
-.zainpaper3{
+.paper3{
     border: none;
     border-radius: 15px;
     display: flex;
@@ -244,10 +242,10 @@ a{
     background-color: var(--col6);
         color:white
     }
-.zainematics div li a:hover{
+.teacher1 div li a:hover{
     text-decoration: underline;
 }
-.zainmechanics{
+.mechanics{
     border: none;
     border-radius: 15px;
     display: flex;
@@ -261,17 +259,8 @@ a{
     background-color: var(--col6);
         color:white
     }
-
-.workcontainer li{  
-    list-style-type: none;
-}
-
-.zainmechanics li{
-    list-style-type: none;
-}        
     
-    
-.zainstats{
+.stats{
     border: none;
     border-radius: 15px;
     display: flex;
@@ -285,113 +274,128 @@ a{
     background-color: var(--col6);
         color:white
     }
-
-.zainstats div li a:hover{
-        text-decoration: underline;}
-
-
-
-.note{
-    border: none;
-    border-radius: 5vh;
-    padding: 3vh;
-    font-size: smaller;
-    height: 20vh;
-    width: 50vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:var(--col5);
-    color: white;
-}
-
-.abunote{
-    display: flex;
-    justify-content: center;
-    
-}
-iframe{
-    width: 600px;
-    height:340px;
-    display: block;
-}
-
-@media screen and (max-width:600px){
-
-    .workcontainer{
-        display: flex;
-        flex-direction: column;
+    .workcontainer li{  
+        list-style-type: none;
     }
-    .zainpaper1,.zainmechanics,.zainstats{
+
+
+
+    .note{
+        border: none;
+        border-radius: 5vh;
+        padding: 3vh;
+        font-size: smaller;
+        height: 20vh;
         width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:var(--col5);
+        color: white;
     }
-    .aboutzain{
-        width: 80vw;
-        display: inline-block;
-        /* font-size: x-small; */
-        box-sizing: border-box;
-        padding: 0px ;
-
-    }
-    .aboutzain p{
-        padding-top: 1vh;
-        padding-left: 0.2vw;
-        padding-right: 0.0vw;
-        padding-bottom: 1vh;
-    }
-    .zainvid{
-        padding: 0px;
-       
-    }
-    .contabout{
-        display: grid;
-        place-items: center;
-        flex-direction: column;
+    
+    .abunote{
+        display: flex;
         justify-content: center;
         
     }
+
+
     iframe{
-        width: 65vw;
-    }
-    .note{
-        width: 60vw;
-        height: 35vh;
-        padding: 3vh;
-        color: var(--col6);
+        width: 600px;
+        height:340px;
+        display: block;
     }
 
-} 
+    @media screen and (max-width:600px){
 
-@media (prefers-color-scheme: dark){
-    *{
-        color: white;
-    }
-    body{
-        background-color: black;
-    }
-    .cont{
-        background-color: var(--dcolH);
-    }
-    .cont nav ul li {
-        background-color: var(--dcolButton2);
-    }
-    .mathcont{
-        background-color: var(--dcolButton);
-    }
-    .links{
-        background-color: var(--dcol2);
-    }
-    .zainematics{
-        background-color: var(--dcolButton);
-    }
-    .aboutzain{
-        background-color:var(--dcol2);
-    }
-    .note{
-        background-color: var(--dcolButton2);
-    }
-    .zainpaper1,.zainpaper3,.zainstats,.zainmechanics{
-        background-color:var(--dcol2) ;
-    }
-
+        .workcontainer{
+            display: flex;
+            flex-direction: column;
         }
+        .paper1,.paper3,.mechanics,.stats{
+            width: 50vw;
+        }
+        .about{
+            width: 90vw;
+            display: inline-block;
+            /* font-size: x-small; */
+            box-sizing: border-box;
+            padding: 0px ;
+    
+        }
+        .teacher1{
+            width: 40vw;
+            padding: 2vh;
+        }
+        .links{
+            width: 40vw;
+            padding: 2vh;
+        }
+        iframe{
+            width: fit-content;
+            height: fit-content;
+            padding: 4vw;
+        }
+        .about p{
+            padding-top: 1vh;
+            padding-left: 0.2vw;
+            padding-right: 0.0vw;
+            padding-bottom: 1vh;
+        }
+        .vid{
+            padding: 0px;
+           
+        }
+        .contabout{
+            display: grid;
+            place-items: center;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+
+        .note{
+            width: 60vw;
+            height: 35vh;
+            padding: 3vh;
+            color: var(--col6);
+        }
+
+    } 
+
+
+    @media (prefers-color-scheme: dark){
+        *{
+            color: white;
+        }
+        body{
+            background-color: black;
+        }
+        .cont{
+            background-color: var(--dcolH);
+        }
+        .cont nav ul li {
+            background-color: var(--dcolButton2);
+        }
+        .namecont{
+            background-color: var(--dcolButton);
+        }
+        .links{
+            background-color: var(--dcol2);
+        }
+        .teacher1{
+            background-color: var(--dcolButton);
+        }
+        .about{
+            background-color:var(--dcol2);
+        }
+        .note{
+            background-color: var(--dcolButton2);
+        }
+        .paper1,.paper3,.stats,.mechanics{
+            background-color:var(--dcol2) ;
+        }
+    
+            }
+

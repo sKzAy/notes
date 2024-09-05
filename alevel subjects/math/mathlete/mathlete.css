@@ -94,7 +94,7 @@ a{
 
 /* END */
 
-.mathcont , .links{
+.namecont , .links{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,7 +105,7 @@ a{
     color: white;
     
 }
-.mathcont{
+.namecont{
     background-color: var(--col42) ;
 }
 
@@ -126,7 +126,7 @@ a{
     text-decoration: none;
 }
 
-.ahmed{
+.teacher1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -242,7 +242,7 @@ a{
     background-color: var(--col6);
         color:white
     }
-.zainematics div li a:hover{
+.teacher1 div li a:hover{
     text-decoration: underline;
 }
 .mechanics{
@@ -324,7 +324,7 @@ a{
             padding: 0px ;
     
         }
-        .ahmed{
+        .teacher1{
             width: 40vw;
             padding: 2vh;
         }
@@ -378,13 +378,13 @@ a{
         .cont nav ul li {
             background-color: var(--dcolButton2);
         }
-        .mathcont{
+        .namecont{
             background-color: var(--dcolButton);
         }
         .links{
             background-color: var(--dcol2);
         }
-        .ahmed{
+        .teacher1{
             background-color: var(--dcolButton);
         }
         .about{

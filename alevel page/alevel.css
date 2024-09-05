@@ -26,7 +26,7 @@ background-color: var(--col1);}
     
   }
 
-.cont{
+.contalvl{
     border: none;
     height: 10vh;
     padding: 20px;
@@ -39,19 +39,19 @@ background-color: var(--col1);}
     background-color: var(--col6);
     
 }
-.cont nav ul li a{
+.contalvl nav ul li a{
    text-align: center;
    color: white;
 
 }
-.cont nav ul li a:hover{
+.contalvl nav ul li a:hover{
     color:#6700dd;
     text-decoration: underline;
 }
-.cont nav ul li a:hover{
+.contalvl nav ul li a:hover{
     color:rgb(69, 227, 255);
 }
-.cont nav ul li:hover{
+.contalvl nav ul li:hover{
     background-color: rgb(50, 0, 70)
 }
 
@@ -59,7 +59,7 @@ background-color: var(--col1);}
 
     
 
-.cont nav ul li{
+.contalvl nav ul li{
     border-radius: 15px;
     border: none;
     background-color:var(--col5) ;
@@ -136,7 +136,7 @@ a{
 
 }
 .subjects ul li a{
-    color:wheat;
+    color:white;
 }
 .subjects ul li a:hover{
     color:rgb(69, 227, 255);
@@ -183,10 +183,10 @@ a{
         background-color: black;
     }
 
-    .cont{
+    .contalvl{
         background-color: var(--dcolH);
     }
-    .cont nav ul li {
+    .contalvl nav ul li {
         background-color: var(--dcolButton2);
     }
     .mega{

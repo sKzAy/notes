@@ -22,6 +22,7 @@ body{
         --dcolButton:rgba(34, 33, 33, 0.719);
         --dcolButton2:rgba(51, 49, 49, 0.719);
         --dcol2:rgb(65, 65, 65);
+        
       }
 
 
@@ -34,7 +35,12 @@ body{
     align-items: center;
     flex-direction:row;
     background-color:var(--col6);
+    
+    
+
 }
+
+
 .cont nav ul li{
     list-style-type: none;
     
@@ -86,10 +92,9 @@ a{
 }
 
 
-
 /* END */
 
-.mathcont , .links{
+.namecont , .links{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,7 +105,7 @@ a{
     color: white;
     
 }
-.mathcont{
+.namecont{
     background-color: var(--col42) ;
 }
 
@@ -121,7 +126,7 @@ a{
     text-decoration: none;
 }
 
-.ahmed{
+.teacher1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,7 +179,6 @@ a{
     position: relative;
     left: 3vw;
 }
-
 .vid{
  display: flex;
  justify-content: center;
@@ -215,7 +219,7 @@ a{
 }
 .workcontainer{
     display: flex;
-    
+    justify-content: center;
     align-items: center;
 }
 .paper1 div li a:hover{
@@ -238,7 +242,7 @@ a{
     background-color: var(--col6);
         color:white
     }
-.zainematics div li a:hover{
+.teacher1 div li a:hover{
     text-decoration: underline;
 }
 .mechanics{
@@ -273,7 +277,6 @@ a{
     .workcontainer li{  
         list-style-type: none;
     }
-    
 
 
 
@@ -321,7 +324,7 @@ a{
             padding: 0px ;
     
         }
-        .ahmed{
+        .teacher1{
             width: 40vw;
             padding: 2vh;
         }
@@ -362,37 +365,37 @@ a{
     } 
 
 
-        @media (prefers-color-scheme: dark){
-    *{
-        color: white;
-    }
-    body{
-        background-color: black;
-    }
-    .cont{
-        background-color: var(--dcolH);
-    }
-    .cont nav ul li {
-        background-color: var(--dcolButton2);
-    }
-    .mathcont{
-        background-color: var(--dcolButton);
-    }
-    .links{
-        background-color: var(--dcol2);
-    }
-    .ahmed{
-        background-color: var(--dcolButton);
-    }
-    .about{
-        background-color:var(--dcol2);
-    }
-    .note{
-        background-color: var(--dcolButton2);
-    }
-    .paper1,.paper3,.stats,.mechanics{
-        background-color:var(--dcol2) ;
-    }
-
+    @media (prefers-color-scheme: dark){
+        *{
+            color: white;
         }
+        body{
+            background-color: black;
+        }
+        .cont{
+            background-color: var(--dcolH);
+        }
+        .cont nav ul li {
+            background-color: var(--dcolButton2);
+        }
+        .namecont{
+            background-color: var(--dcolButton);
+        }
+        .links{
+            background-color: var(--dcol2);
+        }
+        .teacher1{
+            background-color: var(--dcolButton);
+        }
+        .about{
+            background-color:var(--dcol2);
+        }
+        .note{
+            background-color: var(--dcolButton2);
+        }
+        .paper1,.paper3,.stats,.mechanics{
+            background-color:var(--dcol2) ;
+        }
+    
+            }
 
