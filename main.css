@@ -13,7 +13,7 @@ body {
   --col3: #ccdbfd;
   --col4: #729dff;
   --col42: #8eb0ff;
-  --col5: #abc4ff;
+  --col5: #0045e7;
   --col6: rgb(95, 95, 250);
   --col62: rgb(146, 146, 252);
   --col7: #7b93ca;
@@ -93,7 +93,7 @@ body {
 }
 .o:hover,
 .a:hover {
-  color: #ff00c8;
+  color: rgb(60, 226, 255);
   text-decoration: underline;
 }
 
@@ -194,7 +194,7 @@ body {
 .contalvl nav ul li {
   border-radius: 15px;
   border: none;
-  background-color: var(--col5);
+  background-color: var(--col4);
 }
 
 nav ul li {
@@ -371,7 +371,7 @@ a {
   justify-content: center;
   padding: 10px;
   font-weight: bolder;
-  background-color: var(--col5);
+  background-color: var(--col4);
   color: white;
 }
 .aboutme {
@@ -602,7 +602,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--col5);
+  background-color: var(--col4);
   color: white;
 }
 
