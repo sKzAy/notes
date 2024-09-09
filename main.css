@@ -228,13 +228,13 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5vh;
 }
 .subhead {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 5vh;
+  padding-bottom: 0vh;
   margin: 5vh;
 }
 .subhead div h2 {
@@ -243,19 +243,30 @@ a {
 }
 
 .subjects {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.sublist{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 3vh;
 }
 
+
 .subjects ul li {
+  display: inline-block;
   border: none;
   border-radius: 15px;
   background-color: var(--col6);
-  margin: 5px;
-  padding: 15px;
+  gap: 5vw;
+  margin: 1vh;
+  padding: 3vh;
   font-weight: bold;
   list-style-type: none;
+
 }
 .subjects ul li a {
   color: white;
@@ -273,11 +284,12 @@ a {
 }
 
 .mega {
+ 
   border: none;
   border-radius: 15px;
   margin: 10px;
   padding: 1vh;
-  height: 90vh;
+  height: fit-content;
   width: 70vw;
   background-color: var(--col42);
 }
@@ -286,8 +298,24 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 5vh;
 }
 
+@media screen and (max-width: 600px) {
+    .subjects ul li {
+      display: flex;
+      border: none;
+      border-radius: 15px;
+      background-color: var(--col6);
+      gap: 5vw;
+      margin: 1vh;
+      padding: 3vh;
+      font-weight: bold;
+      list-style-type: none;
+      flex-direction: column;
+  }
+
+}
 @media (prefers-color-scheme: dark) {
   * {
     color: white;
