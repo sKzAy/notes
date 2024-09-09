@@ -252,18 +252,16 @@ align-items: center;
  display: flex;
  justify-content: center;
  align-items: center;
- padding: 3vh;
+ padding: 5vh;
 }
 
 
 .subjects ul li {
-  display: inline-block;
   border: none;
   border-radius: 15px;
   background-color: var(--col6);
-  gap: 5vw;
   margin: 1vh;
-  padding: 3vh;
+  padding: 2vh;
   font-weight: bold;
   list-style-type: none;
 
@@ -284,13 +282,11 @@ align-items: center;
 }
 
 .mega {
- 
   border: none;
   border-radius: 15px;
-  margin: 10px;
-  padding: 1vh;
+  margin: 2vh;
   height: fit-content;
-  width: 70vw;
+  width: 60vw;
   background-color: var(--col42);
 }
 
@@ -300,6 +296,33 @@ align-items: center;
   align-items: center;
   padding-top: 5vh;
 }
+
+.changelog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh;
+  color: white;
+  border: none;
+}
+.box{
+  padding: 5vh;
+  background-color: var(--col6);
+  height: fit-content;
+  width: fit-content;
+  border-radius: 15px;
+
+}
+.box li{
+  text-decoration: underline;
+ 
+ 
+}
+.box li a:hover{
+  color: rgb(69, 227, 255);
+  background-color: var(--dcol2);
+}
+
 
 @media screen and (max-width: 600px) {
     .subjects ul li {
@@ -345,6 +368,12 @@ align-items: center;
   }
   .subjects ul li a:hover{
     background-color: purple;
+  }
+  .box{
+    background-color:var(--dcolButton2);
+  }
+  .box  li a:hover{
+    background-color: var(--dcolH);
   }
 }
 
@@ -538,11 +567,12 @@ a {
   color: white;
   background-color: var(--col6);
 }
+
 .workcontainer {
   display: flex;
-
   align-items: center;
 }
+
 
 .workcontainerspecial li {
   list-style-type: none;
