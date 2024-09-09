@@ -309,7 +309,7 @@ align-items: center;
       background-color: var(--col6);
       gap: 5vw;
       margin: 1vh;
-      padding: 3vh;
+      padding: 2vh;
       font-weight: bold;
       list-style-type: none;
       flex-direction: column;
