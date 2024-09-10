@@ -336,6 +336,10 @@ align-items: center;
       font-weight: bold;
       list-style-type: none;
       flex-direction: column;
+
+  }
+  .mega{
+    width: 80vw;
   }
 
 }
