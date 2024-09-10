@@ -311,12 +311,13 @@ align-items: center;
   height: fit-content;
   width: fit-content;
   border-radius: 15px;
+  text-align: center;
 
 }
 .box li{
   text-decoration: underline;
- 
- 
+list-style-type: none;
+text-align: center;
 }
 .box li a:hover{
   color: rgb(69, 227, 255);
@@ -666,6 +667,7 @@ a {
   align-items: center;
   background-color: var(--col4);
   color: white;
+  font-weight: bold;
 }
 
 .abunote {
@@ -733,7 +735,8 @@ iframe {
     width: 60vw;
     height: 35vh;
     padding: 3vh;
-    color: var(--col6);
+    color: white;
+    font-weight: bold;
   }
 }
 
