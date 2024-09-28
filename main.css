@@ -7,6 +7,9 @@
 body {
   background-color: var(--col1);
 }
+html{
+  scroll-behavior: smooth;
+}
 :root {
   --col1: #edf2fa;
   --col2: #d7e3fc;
