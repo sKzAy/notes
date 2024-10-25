@@ -7,9 +7,7 @@
 body {
   background-color: var(--col1);
 }
-html{
-  scroll-behavior: smooth;
-}
+
 :root {
   --col1: #edf2fa;
   --col2: #d7e3fc;
@@ -60,10 +58,7 @@ html{
   display: flex;
   justify-content: center;
 }
-/* .abu{
-    display: flex;
-    justify-content: center;
-} */
+
 
 .olvl {
   border: none;
@@ -684,62 +679,82 @@ iframe {
 }
 
 @media screen and (max-width: 600px) {
-  .workcontainer {
-    display: flex;
-    flex-direction: column;
+  body{
+    overflow-x: hidden;
   }
+
+  .cont {
+    width: 100vw;
+    border: 2px solid yellow;
+  }
+  
+  .cont nav ul {
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .workcontainer,
   .workcontainerspecial {
+    border: 2px solid yellow;
     display: flex;
     flex-direction: column;
   }
+  
   .firstbox,
   .secondbox,
-  .fourthbox,
-  .thirdbox {
+  .thirdbox,
+  .fourthbox {
     width: 50vw;
+    border: 2px solid yellow;
   }
+  
+  .contabout {
+    border: 2px solid yellow;
+    display: grid;
+    place-items: center;
+  }
+  
   .about {
+    border: 2px solid yellow;
     width: 90vw;
     display: inline-block;
-    /* font-size: x-small; */
     box-sizing: border-box;
-    padding: 0px;
+    padding: 0;
   }
-  .teacher1 {
-    width: 40vw;
-    padding: 2vh;
-  }
+  
+  .teacher1,
   .links {
     width: 40vw;
     padding: 2vh;
+    border: 2px solid yellow;
   }
+  
   iframe {
     width: fit-content;
     height: fit-content;
     padding: 4vw;
+    border: 2px solid yellow;
   }
+  
   .about p {
-    padding-top: 1vh;
-    padding-left: 0.2vw;
-    padding-right: 0vw;
-    padding-bottom: 1vh;
+    padding: 1vh 0 1vh 0.2vw; /* Simplified padding */
+    border: 2px solid yellow;
   }
+  
   .vid {
-    padding: 0px;
+    padding: 0;
+    border: 2px solid yellow;
   }
-  .contabout {
-    display: grid;
-    place-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
-
+  
   .note {
     width: 60vw;
     height: 35vh;
     padding: 3vh;
     color: white;
     font-weight: bold;
+    border: 2px solid yellow;
   }
 }
 
