@@ -679,17 +679,23 @@ iframe {
 }
 
 @media screen and (max-width: 600px) {
-  body{
-    overflow-x: hidden;
+  body {
+    overflow-x: hidden; /* Prevent horizontal scrolling for the entire page */
+    margin: 0; /* Remove default margin */
   }
 
   .cont {
     width: 100vw;
-    border: 2px solid yellow;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+
+  .workcontainerabu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .cont nav ul {
-    border: 2px solid yellow;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -701,13 +707,21 @@ iframe {
     display: flex;
     flex-direction: column;
   }
-  
+
+  .contabout {
+    display: none;
+  }
+
   .firstbox,
   .secondbox,
   .thirdbox,
   .fourthbox {
-    width: 50vw;
+    width: 100%; /* Change to 100% to avoid overflow */
+    max-width: 50vw; /* Keep max-width to maintain layout */
     border: 2px solid yellow;
+    overflow: hidden; /* Prevent text overflow */
+    text-overflow: ellipsis; /* Show ellipsis when text overflows */
+    box-sizing: border-box; /* Include padding/border in width calculation */
   }
   
   .contabout {
@@ -722,25 +736,34 @@ iframe {
     display: inline-block;
     box-sizing: border-box;
     padding: 0;
+    overflow: hidden; /* Prevent text overflow */
+    text-overflow: ellipsis; /* Show ellipsis when text overflows */
   }
   
   .teacher1,
   .links {
-    width: 40vw;
+    width: 100%; /* Change to 100% to avoid overflow */
+    max-width: 40vw; /* Keep max-width to maintain layout */
     padding: 2vh;
     border: 2px solid yellow;
+    overflow: hidden; /* Prevent text overflow */
+    text-overflow: ellipsis; /* Show ellipsis when text overflows */
+    box-sizing: border-box; /* Include padding/border in width calculation */
   }
   
   iframe {
-    width: fit-content;
+    width: 100%; /* Change to 100% to avoid overflow */
     height: fit-content;
     padding: 4vw;
     border: 2px solid yellow;
+    box-sizing: border-box; /* Include padding/border in width calculation */
   }
   
   .about p {
     padding: 1vh 0 1vh 0.2vw; /* Simplified padding */
     border: 2px solid yellow;
+    overflow: hidden; /* Prevent text overflow */
+    text-overflow: ellipsis; /* Show ellipsis when text overflows */
   }
   
   .vid {
@@ -749,11 +772,19 @@ iframe {
   }
   
   .note {
-    width: 60vw;
+    width: 100%; /* Change to 100% to avoid overflow */
+    max-width: 60vw; /* Keep max-width to maintain layout */
     height: 35vh;
     padding: 3vh;
     color: white;
     font-weight: bold;
+    border: 2px solid yellow;
+    overflow: hidden; /* Prevent text overflow */
+    text-overflow: ellipsis; /* Show ellipsis when text overflows */
+    box-sizing: border-box; /* Include padding/border in width calculation */
+  }
+
+  .abunote {
     border: 2px solid yellow;
   }
 }
