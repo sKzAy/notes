@@ -694,7 +694,7 @@ html, body {
   }
 
   .teachercontainer{
-    display: none;
+    padding-bottom: 5vh;
   }
   .cont nav ul li{
     width: fit-content;
