@@ -741,6 +741,11 @@ html, body {
   flex-direction: column;
   margin: auto;
 }
+.contabout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   .about {
    
     width: 90vw;
@@ -793,9 +798,7 @@ html, body {
     text-overflow: ellipsis; /* Show ellipsis when text overflows */
   }
 
-  .abunote {
-   
-  }
+
 }
 
 @media (prefers-color-scheme: dark) {
