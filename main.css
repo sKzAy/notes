@@ -693,6 +693,9 @@ html, body {
     overflow-x: hidden; /* Prevent horizontal scrolling */
   }
 
+  .teachercontainer{
+    display: none;
+  }
   .cont nav ul li{
     width: fit-content;
   }
@@ -742,9 +745,10 @@ html, body {
   margin: auto;
 }
 .contabout{
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
+  
 }
   .about {
    
