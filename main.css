@@ -780,11 +780,18 @@ html, body {
     overflow: hidden; /* Prevent text overflow */
     text-overflow: ellipsis; /* Show ellipsis when text overflows */
   }
+.abt{
+  width: 70vw;
+  padding: 5vw;
+}
 
+.containermain{
+  height: fit-content;
+  width: 70vw;
+}
   .vid {
     padding: 0;
-   
-  }
+display: none;  }
 
   .note {
     width: 100%; /* Change to 100% to avoid overflow */
