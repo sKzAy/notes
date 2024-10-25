@@ -785,8 +785,8 @@ html, body {
     text-overflow: ellipsis; /* Show ellipsis when text overflows */
   }
 .abt{
-  width: 70vw;
-  padding: 5vw;
+  width: fit-content;
+  padding: 1vw;
 }
 
 .containermain{
